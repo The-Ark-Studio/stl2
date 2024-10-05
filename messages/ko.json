@@ -1,0 +1,11 @@
+{
+    "header": {
+        "intro": "소개",
+        "aboutUs": "회사 소개",
+        "service": "서비스",
+        "faqs": "자주 묻는 질문",
+        "contact": "연락처",
+        "partner": "파트너십",
+        "gallery": "Gallery"
+    }
+}
