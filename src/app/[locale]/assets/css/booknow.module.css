@@ -1,0 +1,60 @@
+.book-now-button {
+    background-color: #0095B7;
+    /* Màu nền */
+    color: white;
+    /* Màu chữ */
+    padding: 12px 24px;
+    /* Khoảng cách bên trong */
+    border: none;
+    /* Không viền */
+    border-radius: 5px;
+    /* Bo góc */
+    cursor: pointer;
+    /* Con trỏ chuột khi di chuột vào */
+    font-size: 16px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    /* Chữ đậm */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển màu */
+}
+
+/* Hover Effects */
+.book-now-button:hover {
+    background-color: #007A8C;
+    /* Đổi màu khi di chuột vào */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    /* Laptop */
+    .book-now-button {
+        padding: 10px 20px;
+        /* Thay đổi khoảng cách cho laptop */
+        font-size: 15px;
+        /* Thay đổi kích thước chữ cho laptop */
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Tablet */
+    .book-now-button {
+        padding: 8px 16px;
+        /* Thay đổi khoảng cách cho tablet */
+        font-size: 14px;
+        /* Thay đổi kích thước chữ cho tablet */
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Mobile */
+    .book-now-button {
+        padding: 6px 12px;
+        /* Thay đổi khoảng cách cho mobile */
+        font-size: 12px;
+        /* Thay đổi kích thước chữ cho mobile */
+    }
+}
