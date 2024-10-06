@@ -114,7 +114,7 @@ const HeaderTwo = ({variant}) => {
                     </DropDown>
                   </li>
                   <li className="menu-item">
-                    <a href="/gallery">{t('Nav.service')}</a>
+                    <a href="/gallery">{t('Nav.gallery')}</a>
                   </li>
                 </ul>
               </div>
