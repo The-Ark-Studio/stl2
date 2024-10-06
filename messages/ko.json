@@ -1,11 +1,222 @@
 {
-    "header": {
-        "intro": "소개",
-        "aboutUs": "회사 소개",
-        "service": "서비스",
-        "faqs": "자주 묻는 질문",
-        "contact": "연락처",
-        "partner": "파트너십",
-        "gallery": "Gallery"
+  "header": {
+    "booking_button": "지금 예약하세요",
+    "Nav": {
+      "intro": "소개",
+      "about": "회사 소개",
+      "service": "서비스",
+      "gallery": "갱도",
+      "contact": "연락하다",
+      "partnerShip": "공동",
+      "faqs": "자주 묻는 질문"
     }
+  },
+  "homePage": {
+    "firstBlock": {
+      "header": "로비(1F)",
+      "description": "사이공 트래블 라운지의 로비는 고풍스러운 인테리어와 아름다운 정원이 조화를 이루어 고객에게 편안함을 제공하고 있습니다. 고풍스러운 디자인 요소와 자연의 아름다움이 어우러져 편안하고 아늑한 분위기 속에서 여유로운 시간을 즐기실 수 있습니다.",
+      "bookNowButton": "지금 예약하세요"
+    },
+    "secondBlock": {
+      "bookedSlots": "예약된 슬롯",
+      "capacity": "용량",
+      "experience": "경험"
+    },
+    "thirdBlock": {
+      "travelBooking": "여행 예약 서비스",
+      "golfBooking": "골프 예약",
+      "hotelBooking": "호텔 예약",
+      "villaBooking": "빌라 예약",
+      "carRental": "자동차 렌트",
+      "airbnb": "에어비앤비",
+      "tourPackages": "투어 패키지"
+    },
+    "fourthBlock": {
+      "placesNearby": "주변 장소",
+      "tanSonNhatAirport": "탄손누트 공항",
+      "turtleLake": "거북이 호수",
+      "independencePalace": "통일궁",
+      "ducBaCathedral": "독바 대성당",
+      "cityPostOffice": "시내 우체국",
+      "hoChiMinhOperaHouse": "호치민 오페라 하우스",
+      "saigonCentre": "사이공 센터",
+      "saigonBookStreet": "사이공 책거리",
+      "hoChiMinhCityMuseum": "호치민시 박물관",
+      "tranHungDaoStatue": "쩐흥다오 동상",
+      "warRemnetsMuseum": "전쟁기념관",
+      "diamondPlaza": "다이아몬드 플라자",
+      "vincomDongKhoi": "빈콤 동코이",
+      "benThanhMarket": "벤탄 시장"
+    }
+  },
+
+  "servicePage": {
+    "firstBlock": {
+      "showerService": "샤워 서비스",
+      "cafeteria": "카페테리아",
+      "freeWifi": "무료 Wi-Fi",
+      "nailServices": "네일 서비스",
+      "bigScreenTv": "대형 스크린 TV",
+      "freeBuffetRestaurant": "무료 뷔페 레스토랑",
+      "massageService": "마사지 서비스",
+      "sleepingRoom": "수면실"
+    },
+    "secondBlock": {
+      "facilitiesAndAmenities": "시설 및 편의시설",
+      "lobbyArea1f": "로비(1F)",
+      "description": "천연 소재를 활용한 세련되고 모던한 디자인으로 우아하면서도 따뜻한 분위기를 연출하는 공간입니다. 아늑한 소파와 안락의자가 있는 편안한 좌석 공간이 휴식을 취하도록 초대하며, 아름다운 예술 작품이 독특한 느낌을 더해줍니다. 리셉션 데스크의 친절한 직원이 여러분을 도와드릴 준비가 되어 있으며, 다과 공간에서 무료 음료와 스낵을 즐기실 수 있습니다.",
+      "showPicture": "사진 보여주기"
+    },
+    "thirdBlock": {
+      "cafeteria2f": "구내식당(2층)",
+      "description": "'붉은 동굴'을 모티브로 한 STL 구내식당은 풍부한 자연채광과 함께 거친 돌과 정열적인 붉은색으로 디자인됐다. 업무용 개인 테이블에서 '구름다리'를 건너면 펼쳐지는 Modern BAR가 몽환적인 모습을 선사합니다.",
+      "showPicture": "사진 보여주기"
+    },
+    "fourthBlock": {
+      "buffet3f": "뷔페(3층)",
+      "description": "STL 레스토랑에서는 12끼의 무료 식사가 제공되며, 신선한 재료와 깔끔한 조리로 호텔급 뷔페를 경험하실 수 있습니다. 메인요리부터 디저트까지 다양하게 즐기실 수 있습니다.",
+      "showPicture": "사진 보여주기"
+    },
+    "fifthBlock": {
+      "bathroom4f": "욕실(4층)",
+      "description": "STL 샤워실은 쾌적하고 프라이빗한 환경을 제공하며, 귀중품을 안전하게 보관할 수 있는 개인 사물함이 마련되어 있습니다. 또한, STL에서는 개인 의류를 제공하여 편안하고 쾌적한 환경에서 STL 라운지를 자유롭게 이용할 수 있는 특별한 경험을 선사합니다.",
+      "showPicture": "사진 보여주기"
+    },
+    "sixthBlock": {
+      "femaleSleepingRoom5f": "여성 수면실(5층)",
+      "description": "STL 여성용 수면실은 '공주의 침실'을 모티브로 스타일리시한 디자인으로 독립된 침실을 제공하여 최고의 휴식 경험을 선사할 수 있도록 디자인되었습니다. 여행으로 지친 몸과 마음을 재충전할 수 있는 완벽한 공간이 될 것입니다.",
+      "showPicture": "사진 보여주기"
+    },
+    "seventhBlock": {
+      "manicure&Massage6f": "매니큐어 & 마사지 (6F)",
+      "description": "STL 뷰티/헬스룸에서는 고품격 바디 마사지 서비스를 제공하여 몸과 마음의 피로를 풀어주는 특별한 경험을 선사합니다. 또한, 세심하게 관리되는 네일 서비스가 함께 제공되어 몸부터 손끝까지 아름다움을 가꿀 수 있습니다. 이곳에서 고객은 편안함과 아름다움을 동시에 누리며 진정한 힐링의 시간을 가질 수 있습니다.",
+      "showPicture": "사진 보여주기"
+    },
+    "eighthBlock": {
+      "maleSleepingRoom7f": "남성 수면실(7층)",
+      "description": "편안함과 우아함을 고려하여 디자인되었으며, 현대적인 장식, 아늑한 침구, 넉넉한 수납공간, 부드러운 조명을 갖추고 있습니다. 휴식과 활력 회복에 적합합니다. 귀하의 개인 공간에서 스타일과 편안함의 궁극적인 조화를 경험해 보십시오.",
+      "showPicture": "사진 보여주기"
+    }
+  },
+
+  "aboutUs": {
+    "firstBlock": {
+      "titleOne": "STL",
+      "titleTwo": "라운지",
+      "titleThree": "이야기…"
+    },
+    "secondBlock": {
+      "title": "우리를 선택하는 이유",
+      "header": "여행 예산",
+      "description": "사이공 트래블 라운지는 레이트 체크아웃, 객실 연장 등을 통해 여행객의 비용 부담을 줄여 고객 만족도를 높인다. 고객의 여행 일정을 보다 유연하게 조정하는 동시에 편안한 휴식 공간을 제공합니다. 이는 전반적으로 향상된 여행 경험에 기여합니다."
+    },
+    "thirdBlock": {
+      "header": "여행 트렌드",
+      "description": "'신개념' 트래블 라운지 서비스는 새로운 여행 트렌드를 창조하고 시장을 선도하며 고객에게 여행의 질을 높이는 색다른 경험을 선사합니다."
+    },
+    "fourthBlock": {
+      "header": "우리는 하나입니다",
+      "description": "처음 출시되는 이 서비스는 고국의 향수와 현지 환경의 설렘을 결합하여 다양한 음식과 서비스를 제공하며, 여행 시장을 선도하는 한국 기업의 자부심을 반영합니다."
+    },
+    "fifthBlock": {
+      "header": "언어의 자유",
+      "description": "한국어와 영어를 모두 구사하는 컨시어지 팀을 구성하여 고객이 언어 장벽 없이 편리하게 라운지 서비스를 이용할 수 있도록 하였습니다."
+    },
+    "sixthBlock": {
+      "header": "사용 및 퇴장 규정",
+      "title1": "1. 성안전에 관한 규정",
+      "description1": "여성 전용 시설은 남성의 출입을 엄격히 금지하며, 이를 위반할 경우 즉시 퇴실 조치됩니다.",
+      "title2": "2. 소음 규제",
+      "description2": "다른 사람에게 방해가 되는 소음은 금지됩니다. 이 규칙을 위반하면 즉시 퇴학 조치됩니다.",
+      "title3": "3.식품 수입에 관한 규정",
+      "description3": "라운지에는 외부 음식 반입이 금지되어 있습니다. 이 규칙을 위반하면 즉시 퇴학 조치됩니다.",
+      "title4": "4. 퇴폐적 행위에 대한 규제",
+      "description4": "라운지 내에서 과도한 부적절한 행위는 금지되어 있습니다. 이 규칙을 위반하면 즉시 퇴학 조치됩니다."
+    },
+    "seventhBlock": {
+      "header": "보상에 관한 조항",
+      "title1": "1. 시설물의 손해배상 규정",
+      "description1": "시설물의 파손으로 인해 발생하는 모든 비용은 고객이 전적으로 책임을 집니다.",
+      "title2": "2. 흡연에 관한 규정 및 벌금",
+      "description2": "지정된 흡연구역 밖에서 흡연할 경우 200,000VND의 벌금이 부과됩니다.",
+      "title3": "3. 라운지 내에서의 절도 및 폭력행위",
+      "description3": "라운지 내에서 도난이나 폭력이 발생한 경우, 가해자에게 100% 배상 책임과 법적 책임이 있습니다.",
+      "title4": "4. 고객 피해에 대한 보상",
+      "description4": "사이공 트래블 라운지는 제공되는 음식 및 시설로 인해 발생하는 모든 사고에 대해 전적인 책임을 지며, 의료비 및 손해배상을 약속합니다."
+    }
+  },
+  "faqs": {
+    "firstBlock": {
+      "question1": "가장 가까운 공항에서 사이공 트래블 라운지(STL)까지 어떻게 이동할 수 있나요?",
+      "answer1": "라운지 예약 시 또는 택시 이용 시 픽업 서비스(유료)를 요청하실 수 있습니다.",
+      "question2": "STL의 체크인 시간과 체크아웃 시간은 언제인가요?",
+      "answer2": "귀하의 도착 또는 출발 항공편에 적합할 때마다 귀하의 참조에 따라 체크인 또는 체크아웃하실 수 있습니다.",
+      "question3": "라운지에서는 어떤 서비스를 제공하나요?",
+      "answer3": {
+        "one": "따뜻한 음식과 가벼운 간식 선택.",
+        "two": "바리스타 및 바텐더 서비스.",
+        "three": "휴게소.",
+        "four": "회의실.",
+        "five": "놀이방.",
+        "six": "화장실과 샤워실.",
+        "seven": "휠체어로 이용 가능한 화장실 및 샤워실.",
+        "eight": "베이비 케어 룸.",
+        "nine": "무선 인터넷.",
+        "ten": "TV."
+      },
+
+      "question4": "사이공 트래블 라운지에는 어떤 시설이 있나요?",
+      "answer4": {
+        "one": "바리스타와 바텐더.",
+        "two": "편안한 소파와 소파가 있는 휴식 공간.",
+        "three": "회의실.",
+        "four": "다양한 활동을 지원하는 놀이방.",
+        "five": "화장실과 샤워실.",
+        "six": "휠체어로 이용 가능한 화장실 및 샤워실.",
+        "seven": "베이비 케어 룸."
+      },
+      "question5": "사이공 트래블 라운지의 최대 수용 인원은 얼마나 되나요?",
+      "answer5": "우리의 최대 용량은 하루 최대 80명까지 제공할 수 있습니다.",
+      "question6": "사이공 트래블 라운지의 금연/흡연 가능 규정은 어떻게 되나요?",
+      "answer6": "Saigon Travel Lounge의 모든 객실과 시설은 금연실입니다.."
+    },
+
+    "gallery": {
+      "firstBlock": {
+        "building": "건물",
+        "lobby": "로비",
+        "cafeteria": "카페테리아",
+        "buffet": "타격",
+        "bathroom": "화장실",
+        "femaleSleepingRoom": "여성 수면실",
+        "manicureAndMassage": "매니큐어 및 마사지",
+        "maleSleepingRoom": "남성 수면실"
+      }
+    },
+
+    "footer": {
+      "contact": {
+        "title": "연락처",
+        "email": "support@stl.sg",
+        "phone": "02836223390",
+        "address": "95 Vo Thi Sau길, 6등, 3군, 호치민 시, 베트남",
+        "check_map": {
+          "title": "지도 확인",
+          "link": "https://www.google.com/maps/place/95+%C4%90.+V%C3%B5+Th%E1%BB%8B+S%C3%A1u,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000/@10.7866873,106.6884141,17z/data=!4m6!3m5!1s0x31752f3254c86d61:0x31fa21392192d696!8m2!3d10.786682!4d106.690989!16s%2Fg%2F11c20vt2hx?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
+        }
+      },
+      "travel_booking": {
+        "title": "여행 예약",
+        "email": "kpglee44@naver.com",
+        "phone": "01067352180 (한국 전화번호)",
+        "kakao": "카카오톡 아이디: kpglee44"
+      },
+      "stay_in_touch": {
+        "title": "소셜 네트워크 서비스",
+        "facebook": "https://www.facebook.com/saigontravellounge.kr",
+        "instagram": "https://www.instagram.com/saigontravellounge.kr/",
+        "tiktok": "https://www.tiktok.com/@saigontravellounge.kr"
+      }
+    }
+  }
 }

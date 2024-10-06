@@ -1,11 +1,218 @@
 {
-    "header": {
-        "intro": "Introduction",
-        "aboutUs": "About Us",
-        "service": "Service",
-        "faqs": "FAQs",
-        "contact": "Contact",
-        "partner": "Partnership",
-        "gallery": "Gallery"
+  "header": {
+    "booking_button": "Book Now",
+    "Nav": {
+      "intro": "Introduction",
+      "about": "About Us",
+      "contact": "Contact",
+      "partnerShip": "Partnership",
+      "faqs": "FAQs",
+      "service": "Service",
+      "gallery": "Gallery"
+    },
+    "homePage": {
+      "firstBlock": {
+        "header": "Lobby (1F)",
+        "description": "The lobby of Saigon Travel Lounge is in harmony with antique interiors and beautiful gardens, providing comfort to customers. With the combination of antique design elements and natural beauty, visitors can enjoy relaxing time in a comfortable and cozy atmosphere.",
+        "bookNowButton": "Book Now"
+      },
+      "secondBlock": {
+        "bookedSlots": "Booked Slots",
+        "capacity": "Capacity",
+        "experience": "Experience"
+      },
+      "thirdBlock": {
+        "travelBooking": "TRAVEL BOOKING",
+        "golfBooking": "Golf Booking",
+        "hotelBooking": "Hotel Booking",
+        "villaBooking": "Villa Booking",
+        "carRental": "Car Rental",
+        "airbnb": "Airbnb",
+        "tourPackages": "Tour Packages"
+      },
+      "fourthBlock": {
+        "placesNearby": "PLACES NEARBY",
+        "tanSonNhatAirport": "Tan Son Nhat Airport",
+        "turtleLake": "Turtle Lake",
+        "independencePalace": "Independence Palace",
+        "ducBaCathedral": "Duc Ba Cathedral",
+        "cityPostOffice": "City Post Office",
+        "hoChiMinhOperaHouse": "Ho Chi Minh Opera",
+        "saigonCentre": "Saigon Centre",
+        "saigonBookStreet": "Saigon Book Street",
+        "hoChiMinhCityMuseum": "Ho Chi Minh City Museum",
+        "tranHungDaoStatue": "Tran Hung Dao Statue",
+        "warRemnetsMuseum": "War Remnets Museum",
+        "diamondPlaza": "Diamond Plaza",
+        "vincomDongKhoi": "vincom Dong Khoi",
+        "benThanhMarket": "Ben Thanh Market"
+      }
     }
+  },
+  "servicePage": {
+    "firstBlock": {
+      "showerService": "Shower Service",
+      "cafeteria": "Cafeteria",
+      "freeWifi": "Free Wifi",
+      "nailServices": "Nail Services",
+      "bigScreenTv": "Big Screen TV",
+      "freeBuffetRestaurant": "Free Buffet Restaurant",
+      "massageService": "Massage Service",
+      "sleepingRoom": "Sleeping Room"
+    },
+    "secondBlock": {
+      "facilitiesAndAmenities": "Facilities and Amenities",
+      "lobbyArea1f": "Lobby Area (1F)",
+      "description": "This space features a sleek, modern design with natural materials, creating an elegant yet warm atmosphere. Comfortable seating areas with cozy sofas and armchairs invite you to relax, while beautiful artwork adds a unique touch. Our friendly staff at the reception desk are ready to assist you, and you can enjoy complimentary drinks and snacks at the refreshment area.",
+      "showPicture": "Show picture"
+    },
+    "thirdBlock": {
+      "cafeteria2f": "Cafeteria (2F)",
+      "description": "With the motif of “Red Cave,” the STL cafeteria is designed with rough stones and passionate red colors along with abundant natural lighting. Cross the “Cloud Bridge” from the private table for work and the unfolding Modern BAR will give you a dreamy look.",
+      "showPicture": "Show picture"
+    },
+    "fourthBlock": {
+      "buffet3f": "Buffet (3F)",
+      "description": "At the STL restaurant, 12 free meals are served, and you can experience a hotel-class buffet with fresh ingredients and clean cooking. You can enjoy a variety of things from main dishes to desserts.",
+      "showPicture": "Show picture"
+    },
+    "fifthBlock": {
+      "bathroom4f": "Bathroom (4F)",
+      "description": "The STL shower room offers a pleasant and private environment, and there is a personal locker to keep your valuable items safe. In addition, STL provides personal clothing, giving you a special experience to freely use the STL lounge in comfortable and pleasant conditions.",
+      "showPicture": "Show picture"
+    },
+    "sixthBlock": {
+      "femaleSleepingRoom5f": "Female Sleeping Room (5F)",
+      "description": "The STL Women’s Sleep Room is a stylish design with the motif of “The Princess’s Bedroom,” designed to provide an independent bedroom for the ultimate relaxation experience. It will be the perfect space to recharge your body and mind tired from travel.",
+      "showPicture": "Show picture"
+    },
+    "seventhBlock": {
+      "manicure&Massage6f": "Manicure & Massage (6F)",
+      "description": "STL Beauty/Health Room offers high-quality body massage services, providing a special experience to relieve body and mind fatigue. In addition, it comes with a carefully managed nail service, so you can take care of the beauty from your body to your fingertips. Here, customers can enjoy both comfort and beauty, and have a time of real healing.",
+      "showPicture": "Show picture"
+    },
+    "eighthBlock": {
+      "maleSleepingRoom7f": "Male sleeping room (7F)",
+      "description": "Designed for comfort and elegance, it features modern decor, cozy bedding, ample storage, and soft lighting. Perfect for relaxation and rejuvenation. Experience the ultimate blend of style and comfort in your personal sanctuary.",
+      "showPicture": "Show picture"
+    }
+  },
+
+  "aboutUs": {
+    "firstBlock": {
+      "titleOne": "OUR",
+      "titleTwo": "Lounge",
+      "titleThree": "Story…"
+    },
+    "secondBlock": {
+      "title": "WHY CHOOSE US",
+      "header": "A Travel Budget",
+      "description": "The Saigon Travel Lounge reduces the cost burden on travelers through late check-out and room extension, enhancing customer satisfaction. It helps customers adjust their travel schedules more flexibly while providing a comfortable space for relaxation. This contributes to an overall improved travel experience."
+    },
+    "thirdBlock": {
+      "header": "A Travel Trend",
+      "description": "The \"new concept\" travel lounge service creates new travel trends and leads the market, providing customers with unique experiences that enhance the quality of their travel."
+    },
+    "fourthBlock": {
+      "header": "We’re The One",
+      "description": "This service, which is being launched for the first time, combines the nostalgia of the homeland with the excitement of the local environment by offering a variety of foods and services, reflecting the pride of a Korean company leading the travel market."
+    },
+    "fifthBlock": {
+      "header": "Freedom of Language",
+      "description": "We have organized a concierge team that speaks both Korean and English, allowing customers to conveniently use services in the lounge without any language barriers."
+    },
+    "sixthBlock": {
+      "header": "USE AND EXIT REGULATIONS",
+      "title1": "1. Regulations on sexual safety",
+      "description1": "Facilities exclusively for women are strictly prohibited for men, and violation of this rule will result in immediate expulsion.",
+      "title2": "2. Regulations on noise",
+      "description2": "Noise that disturbs others is prohibited. Violating this rule will result in immediate expulsion.",
+      "title3": "3. Regulations on the import of food",
+      "description3": "Outside food is not allowed in the lounge. Violating this rule will result in immediate expulsion.",
+      "title4": "4. Regulations on decadent acts",
+      "description4": "Excessive inappropriate behavior is prohibited within the lounge. Violating this rule will result in immediate expulsion."
+    },
+    "seventhBlock": {
+      "header": "PROVISIONS CONCERNING COMPENSATION",
+      "title1": "1. Regulations for compensation for damage to facilities",
+      "description1": "Customers will be fully responsible for any costs incurred due to damage to the facilities.",
+      "title2": "2. Regulations and fines regarding smoking",
+      "description2": "A fine of 200,000 VND will be imposed for smoking outside of designated smoking areas.",
+      "title3": "3. Theft and violence within the lounge",
+      "description3": "In the event of theft or violence occurring in the lounge, the perpetrator will be 100% responsible for compensation and legal liability.",
+      "title4": "4. Compensation for customer damages",
+      "description4": "Saigon Travel Lounge will take full responsibility for any accidents that occur due to the food and facilities provided, and promises to cover medical expenses and compensation for damages."
+    }
+  },
+  "faqs": {
+    "firstBlock": {
+      "question1": "How can I get to Saigon Travel Lounge (STL) from the nearest airport?",
+      "answer1": "You can request a pick-up service (charged) when making a lounge reservation or take a taxi.",
+      "question2": "What are the check-in and check-out times at STL?",
+      "answer2": "You can check-in or check-out based on your references whenever it is suitable for your arrival or departure flight.",
+      "question3": "What services does the lounge provide?",
+      "answer3": {
+        "one": "Selection of warm food and light snacks.",
+        "two": "Barista and bartender service.",
+        "three": "Rest area.",
+        "four": "Meeting room.",
+        "five": "Play room.",
+        "six": "Restrooms and showers.",
+        "seven": "Wheelchair accessible restroom and shower.",
+        "eight": "Baby care room.",
+        "nine": "Wireless internet.",
+        "ten": "TV."
+      },
+      "question4": "What facilities are available at Saigon Travel Lounge?",
+      "answer4": {
+        "one": "Barista and bartender.",
+        "two": "Rest area with comfortable couch, sofa.",
+        "three": "Meeting room.",
+        "four": "Play room to support multiple activities.",
+        "five": "Restrooms and showers.",
+        "six": "Wheelchair accessible restroom and shower.",
+        "seven": "Baby care room."
+      },
+      "question5": "What is the maximum capacity of Saigon Travel Lounge?",
+      "answer5": "Our maximum capacity can serve up to 80 pax per day.",
+      "question6": "What is the smoking policy at Saigon Travel Lounge?",
+      "answer6": "All rooms and facilities of Saigon Travel Lounge are non-smoking."
+    }
+  },
+  "gallery": {
+    "firstBlock": {
+      "building": "Building",
+      "lobby": "Lobby",
+      "cafeteria": "Cafeteria",
+      "buffet": "Buffet",
+      "bathroom": "Bathroom",
+      "femaleSleepingRoom": "Female Sleeping Room",
+      "manicureAndMassage": "Manicure & Massage",
+      "maleSleepingRoom": "Male Sleeping Room"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "CONTACT",
+      "email": "support@stl.sg",
+      "phone": "02836223390",
+      "address": "95 Vo Thi Sau Street, Ward 6, District 3, Ho Chi Minh, Viet Nam",
+      "check_map": {
+        "title": "Check Map",
+        "link": "https://www.google.com/maps/place/95+%C4%90.+V%C3%B5+Th%E1%BB%8B+S%C3%A1u,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000/@10.7866873,106.6884141,17z/data=!4m6!3m5!1s0x31752f3254c86d61:0x31fa21392192d696!8m2!3d10.786682!4d106.690989!16s%2Fg%2F11c20vt2hx?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
+      }
+    },
+    "travel_booking": {
+      "title": "TRAVEL BOOKING",
+      "email": "kpglee44@naver.com",
+      "phone": "01067352180 (KR)",
+      "kakao": "KakaoTalk ID: kpglee44"
+    },
+    "stay_in_touch": {
+      "title": "STAY IN TOUCH",
+      "facebook": "https://www.facebook.com/saigontravellounge/",
+      "instagram": "https://www.instagram.com/saigontravellounge/",
+      "tiktok": "https://www.tiktok.com/@saigontravellounge"
+    }
+  }
 }
