@@ -7,6 +7,7 @@ import './styles/styles.css';
 import './assets/css/all.css';
 import './assets/css/meanmenu.min.css';
 import './assets/sass/style.css';
+import './assets/css/base.css';
 // import 'bootstrap/dist/js/bootstrap.min.js';
 
 export default async function RootLayout({children, locale}) {

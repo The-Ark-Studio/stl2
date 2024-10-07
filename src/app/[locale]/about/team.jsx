@@ -1,6 +1,6 @@
-import teams from "@/components/data/team";
-import Image from "next/image";
-import Social from "../socials/page";
+// import teams from "@/components/data/team";
+import Image from 'next/image';
+import Social from '../socials/page';
 
 const Team = () => {
   const teamItem = teams.slice(0, 3);

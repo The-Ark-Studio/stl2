@@ -1,0 +1,9 @@
+:root {
+    --background-service-color: '#f9f9f9';
+    --black-color: '#000';
+    --service-description-color: '#666'
+}
+
+.bg-service {
+    background: var(--background-service-color);
+}

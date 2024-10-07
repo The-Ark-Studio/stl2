@@ -48,7 +48,7 @@ const HeaderTwo = ({variant}) => {
   }, []);
   return (
     <>
-      <div className="header__area three">
+      <div className="pb-1 header__area three">
         <div className="container custom__container">
           <div
             className={`header__area-menubar three header__sticky ${
