@@ -44,6 +44,9 @@ dependencies:
   react-bootstrap:
     specifier: ^2.8.0
     version: 2.10.5(react-dom@18.3.1)(react@18.3.1)
+  react-bootstrap-icons:
+    specifier: ^1.11.4
+    version: 1.11.4(react@18.3.1)
   react-dom:
     specifier: 18.3.1
     version: 18.3.1(react@18.3.1)
@@ -2599,6 +2602,15 @@ packages:
     resolution: {integrity: sha512-cbPI1MTpVLKbEH6gf9bwtJb8Ja6R/YJonKbUQehfq2B2AAJkgDMeHntaa4SgGCRqWd55xKiT+CkjfKau1QRsKw==}
     dependencies:
       web-animation-club: 0.6.0
+    dev: false
+
+  /react-bootstrap-icons@1.11.4(react@18.3.1):
+    resolution: {integrity: sha512-lnkOpNEZ/Zr7mNxvjA9efuarCPSgtOuGA55XiRj7ASJnBjb1wEAdtJOd2Aiv9t07r7FLI1IgyZPg9P6jqWD/IA==}
+    peerDependencies:
+      react: '>=16.8.6'
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.3.1
     dev: false
 
   /react-bootstrap@2.10.5(react-dom@18.3.1)(react@18.3.1):

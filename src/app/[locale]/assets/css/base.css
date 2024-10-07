@@ -1,7 +1,11 @@
 :root {
-    --background-service-color: '#f9f9f9';
-    --black-color: '#000';
-    --service-description-color: '#666'
+    --background-service-color: #f9f9f9;
+    --black-color: #000;
+    --white-color: #FFF;
+    --service-description-color: #666;
+    --secondary-color: #0095B7;
+    --secondary-color-2: #6ec1e4;
+    --text-contact-color: #063c43
 }
 
 .bg-service {
