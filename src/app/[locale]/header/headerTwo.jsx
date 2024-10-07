@@ -10,7 +10,7 @@ import BookNow from '@components/book-now/book-now';
 import styles from '../assets/css/language.module.css';
 // import LanguageIcon from "@/public/img/Language.png";
 import LanguageIcon from '../../../../public/img/Language.png';
-import {useRouter} from 'next/navigation';
+import {useRouter, usePathname} from 'next/navigation';
 
 const HeaderTwo = ({variant}) => {
   const t = useTranslations('header');
@@ -20,20 +20,30 @@ const HeaderTwo = ({variant}) => {
   const [mobileToggle, setMobileToggle] = useState(false);
   //   const [search, setSearch] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+  const currentPath = usePathname();
 
   const router = useRouter();
+
   const localActive = useLocale();
 
   const handleChangeLanguage = (e) => {
     const {value} = e.target;
     const nextLocale = value;
+    const segments = currentPath.split('/');
+    const currentLocale = segments;
+    const newPath = currentPath.replace(
+      `/${currentLocale[1]}`,
+      `/${nextLocale}`
+    );
+
+    console.log('newPath', newPath);
+
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      router.replace(newPath);
     });
   };
 
   const handleClick = () => {
-    console.log(selectLangRef);
     console.log('handleClick');
   };
 

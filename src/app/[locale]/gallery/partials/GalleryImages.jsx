@@ -1,5 +1,6 @@
+'use client';
 import react, {useState} from 'react';
-import {Modal} from 'react-bootstrap';
+import {Modal, ModalBody} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/galleryStyle.css';
 import Image from 'next/image';
@@ -47,7 +48,7 @@ const GalleryImages = ({imageUrls}) => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Body>
+        <ModalBody>
           <div>
             <img
               src={selectedImage}
@@ -60,7 +61,7 @@ const GalleryImages = ({imageUrls}) => {
               //   }}
             />
           </div>
-        </Modal.Body>
+        </ModalBody>
       </Modal>
     </div>
   );

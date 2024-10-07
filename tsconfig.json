@@ -30,6 +30,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/custom.d.ts"
-, "src/app/[locale]/services-details/partials/GallerySection.jsx"  ],
+, "src/app/[locale]/services-details/partials/GallerySection.jsx", "src/middleware.tsx"  ],
   "exclude": ["node_modules"]
 }

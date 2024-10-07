@@ -1,5 +1,4 @@
 // layout.jsx
-
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import NextTopLoader from 'nextjs-toploader';
@@ -19,9 +18,6 @@ export const metadata = {
 export default async function RootLayout({children, locale}) {
   console.log('locale: ', locale);
   const messages = await getMessages();
-  // useEffect(() => {
-  //   require('bootstrap/dist/js/bootstrap.min.js');
-  // }, []);
 
   return (
     <html lang={locale}>
