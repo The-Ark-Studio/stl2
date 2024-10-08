@@ -5,6 +5,9 @@
       "@/*": [
         "*"
       ],
+      "@pub/*": [
+        "./public/*"
+      ],
       "@components/*": [
         "components/*"
       ]

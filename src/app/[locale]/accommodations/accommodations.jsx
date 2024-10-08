@@ -1,5 +1,5 @@
 "use client";
-import Accommodationsimg from "./accommodations-img";
+// import Accommodationsimg from "./accommodations-img";
 import Accommodationstext from "./accommodations-text";
 import "./accommodations.css";
 
@@ -9,7 +9,7 @@ export default function Accommodations() {
       <div className="container">
         <div className="row accommodations d-flex justify-around items-center">
           <Accommodationstext />
-          <Accommodationsimg />
+          {/* <Accommodationsimg /> */}
         </div>
       </div>
     </div>
