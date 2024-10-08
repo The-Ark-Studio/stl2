@@ -20,6 +20,11 @@
     color: var(--black-color);
 }
 
+.b-title-text-22-bold {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black-color);
+}
 
 .b-text-description-16 {
     font-size: 16px;

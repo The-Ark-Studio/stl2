@@ -39,9 +39,9 @@ const HeaderTwo = ({variant}) => {
 
     console.log('newPath', newPath);
 
-    // startTransition(() => {
-    //   router.replace(newPath);
-    // });
+    startTransition(() => {
+      router.replace(newPath);
+    });
   };
 
   const handleClick = () => {

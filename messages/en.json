@@ -145,6 +145,7 @@
     }
   },
   "faqs": {
+    "title": "FAQs",
     "firstBlock": {
       "question1": "How can I get to Saigon Travel Lounge (STL) from the nearest airport?",
       "answer1": "You can request a pick-up service (charged) when making a lounge reservation or take a taxi.",
