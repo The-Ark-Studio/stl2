@@ -12,6 +12,7 @@ import styles from '../assets/css/language.module.css';
 import LanguageIcon from '../../../../public/img/Language.png';
 import {useRouter, usePathname} from 'next/navigation';
 import {Link} from '@i18n/routing';
+import '../assets/css/base.css';
 
 const HeaderTwo = ({variant}) => {
   const t = useTranslations('header');

@@ -5,7 +5,12 @@
     --service-description-color: #666;
     --secondary-color: #0095B7;
     --secondary-color-2: #6ec1e4;
-    --text-contact-color: #063c43
+    --text-contact-color: #063c43;
+    --icon-grey-color: #7a7a7a;
+}
+
+a {
+    text-decoration: none;
 }
 
 .b-title-text-32 {
