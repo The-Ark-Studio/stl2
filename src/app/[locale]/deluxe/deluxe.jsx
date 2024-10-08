@@ -1,9 +1,9 @@
 'use client';
-import roomFilter from '../../../../components/data/room-filter';
-import React, {useState} from 'react';
+import roomFilter from '@/components/data/room-filter';
+import React, { useState } from 'react';
 import RoomItem from './room-item';
 
-const {projects, filters} = roomFilter;
+const { projects, filters } = roomFilter;
 const getFilteredProjects = (filterData) =>
   filterData === 'filter-item'
     ? projects
@@ -32,7 +32,7 @@ const Deluxe = () => {
             <div className="col-xl-7">
               <div className="deluxe__area-btn">
                 <ul>
-                  {filters.map(({id, name, filterData}) => (
+                  {filters.map(({ id, name, filterData }) => (
                     <li
                       key={id}
                       onClick={() => setFilter(filterData)}
@@ -53,9 +53,8 @@ const Deluxe = () => {
                 onMouseEnter={() => handelActive(index)}
               >
                 <div
-                  className={`deluxe__area-item ${
-                    active === index ? 'deluxe__area-item-hover' : ''
-                  } ${project.filter.join(' ')}`}
+                  className={`deluxe__area-item ${active === index ? 'deluxe__area-item-hover' : ''
+                    } ${project.filter.join(' ')}`}
                   key={index}
                 >
                   <RoomItem project={project} />

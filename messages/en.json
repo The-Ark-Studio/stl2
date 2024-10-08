@@ -1,6 +1,6 @@
 {
   "header": {
-    "booking_button": "Book Now",
+    "booking_button": "Book Now!",
     "Nav": {
       "intro": "Introduction",
       "about": "About Us",
@@ -9,44 +9,49 @@
       "faqs": "FAQs",
       "service": "Service",
       "gallery": "Gallery"
+    }
+  },
+  "homePage": {
+    "firstBlock": {
+      "header": "LOBBY AREA (1F)",
+      "description": "The lobby of Saigon Travel Lounge is in harmony with antique interiors and beautiful gardens, providing comfort to customers. With the combination of antique design elements and natural beauty, visitors can enjoy relaxing time in a comfortable and cozy atmosphere.",
+      "bookNowButton": "Book Now"
     },
-    "homePage": {
-      "firstBlock": {
-        "header": "Lobby (1F)",
-        "description": "The lobby of Saigon Travel Lounge is in harmony with antique interiors and beautiful gardens, providing comfort to customers. With the combination of antique design elements and natural beauty, visitors can enjoy relaxing time in a comfortable and cozy atmosphere.",
-        "bookNowButton": "Book Now"
-      },
-      "secondBlock": {
-        "bookedSlots": "Booked Slots",
-        "capacity": "Capacity",
-        "experience": "Experience"
-      },
-      "thirdBlock": {
-        "travelBooking": "TRAVEL BOOKING",
-        "golfBooking": "Golf Booking",
-        "hotelBooking": "Hotel Booking",
-        "villaBooking": "Villa Booking",
-        "carRental": "Car Rental",
-        "airbnb": "Airbnb",
-        "tourPackages": "Tour Packages"
-      },
-      "fourthBlock": {
-        "placesNearby": "PLACES NEARBY",
-        "tanSonNhatAirport": "Tan Son Nhat Airport",
-        "turtleLake": "Turtle Lake",
-        "independencePalace": "Independence Palace",
-        "ducBaCathedral": "Duc Ba Cathedral",
-        "cityPostOffice": "City Post Office",
-        "hoChiMinhOperaHouse": "Ho Chi Minh Opera",
-        "saigonCentre": "Saigon Centre",
-        "saigonBookStreet": "Saigon Book Street",
-        "hoChiMinhCityMuseum": "Ho Chi Minh City Museum",
-        "tranHungDaoStatue": "Tran Hung Dao Statue",
-        "warRemnetsMuseum": "War Remnets Museum",
-        "diamondPlaza": "Diamond Plaza",
-        "vincomDongKhoi": "vincom Dong Khoi",
-        "benThanhMarket": "Ben Thanh Market"
-      }
+    "secondBlock": {
+      "bookedSlots": "BOOKED SLOTS",
+      "capacity": "CAPACITY",
+      "complete": "EXPERIENCE"
+    },
+    "thirdBlock": {
+      "header": "Saigon Travel Lounge gives you more than you can imagine.",
+      "description": "We have a lot of effort to bring more quality time to you and the people you love. You will have a chance to enjoy meaningful moments together and that’s reason why we’re here."
+    },
+    "fourthBlock": {
+      "travelBooking": "TRAVEL BOOKING SERVICES",
+      "golfBooking": "Golf Booking",
+      "hotelBooking": "Hotel Booking",
+      "villaBooking": "Villa Booking",
+      "carRental": "Car Rental",
+      "airbnb": "Airbnb",
+      "tourPackages": "Tour Packages"
+    },
+    "fifthBlock": {
+      "placesNearby": "PLACES NEARBY",
+      "tanSonNhatAirport": "Tan Son Nhat Airport",
+      "turtleLake": "Turtle Lake",
+      "independencePalace": "Independence Palace",
+      "ducBaCathedral": "Duc Ba Cathedral",
+      "cityPostOffice": "City Post Office",
+      "hoChiMinhOperaHouse": "Ho Chi Minh Opera House",
+      "saigonCentre": "Saigon Centre",
+      "saigonBookStreet": "Saigon Book Street",
+      "hoChiMinhCityMuseum": "Ho Chi Minh City Museum",
+      "tranHungDaoStatue": "Tran Hung Dao Statue",
+      "warRemnetsMuseum": "War Remnets Museum",
+      "diamondPlaza": "Diamond Plaza",
+      "hoChiMinhCityCampaignMuseum": "Ho Chi Minh Campaign Museum",
+      "vincomDongKhoi": "Vincom Dong Khoi",
+      "benThanhMarket": "Ben Thanh Market"
     }
   },
   "servicePage": {
@@ -97,7 +102,6 @@
       "showPicture": "Show picture"
     }
   },
-
   "aboutUs": {
     "firstBlock": {
       "titleOne": "OUR",

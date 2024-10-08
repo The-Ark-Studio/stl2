@@ -1,9 +1,25 @@
+'use client';
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ModalVideo from "react-modal-video";
+import BannerImage from "../../../../public/img/home/_ONY0001.jpg";
+import { useTranslations } from "next-intl";
 
 const Banner = () => {
+  const t = useTranslations('homePage.firstBlock')
   const [isOpen, setOpen] = useState(false);
+  useEffect(() => {
+    // Mở video khi component lần đầu được tải
+    setOpen(true);
+
+    // Tắt video sau 3 giây
+    const timer = setTimeout(() => {
+      setOpen(false);
+    }, 5000);
+
+    // Dọn dẹp timer khi component unmount
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <div
       className="banner__three"
@@ -13,12 +29,14 @@ const Banner = () => {
         <div className="row align-items-center">
           <div className="col-xl-7 col-lg-7 order-last order-lg-first">
             <div className="banner__three-title">
-              <span className="subtitle__one">Hotel Booking Website</span>
-              <h1>
-                Book hotels online<span> Get 20% Off !</span>
-              </h1>
-              <Link className="theme-btn" href="/about">
-                Read More<i className="fal fa-long-arrow-right"></i>
+              <h2>
+                {t('header')}
+                {/* <span> Get 20% Off !</span> */}
+              </h2>
+              <span className="subtitle__one">{t('description')}</span>
+
+              <Link className="theme-btn" href="https://booking.stl.com">
+                {t('bookNowButton')}<i className="fal fa-long-arrow-right"></i>
               </Link>
               <div className="banner__three-title-video">
                 <div className="video__play">
@@ -26,8 +44,9 @@ const Banner = () => {
                     <ModalVideo
                       channel="youtube"
                       isOpen={isOpen}
-                      videoId="SZEflIVnhH8"
+                      videoId="r5dZ26FgrD0"//"agethgLsIts" // Chỉ lấy video ID mà không thêm tham số autoplay
                       onClose={() => setOpen(false)}
+                      autoplay={true} // Thêm thuộc tính autoplay
                     />
                     <span onClick={() => setOpen(true)}>
                       <i className="fas fa-play"></i>
@@ -39,7 +58,7 @@ const Banner = () => {
           </div>
           <div className="col-xl-5 col-lg-5 lg-mb-60">
             <div className="banner__three-right">
-              <img className="img__full" src="/img/banner-6.jpg" alt="" />
+              <img className="img__50" src={BannerImage.src} alt="" />
             </div>
           </div>
         </div>

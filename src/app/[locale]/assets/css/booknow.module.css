@@ -1,5 +1,5 @@
 .book-now-button {
-    background-color: #0095B7;
+    background-color: var(--primary-color);
     /* Màu nền */
     color: white;
     /* Màu chữ */
@@ -21,7 +21,7 @@
 
 /* Hover Effects */
 .book-now-button:hover {
-    background-color: #007A8C;
+    background-color: var(--primary-color);
     /* Đổi màu khi di chuột vào */
 }
 

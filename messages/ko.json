@@ -1,55 +1,59 @@
 {
   "header": {
-    "booking_button": "지금 예약하세요",
+    "booking_button": "지금 예약하세요!",
     "Nav": {
       "intro": "소개",
       "about": "회사 소개",
       "service": "서비스",
-      "gallery": "갱도",
-      "contact": "연락하다",
-      "partnerShip": "공동",
+      "gallery": "갤러리",
+      "contact": "연락처",
+      "partnerShip": "파트너십",
       "faqs": "자주 묻는 질문"
     }
   },
   "homePage": {
     "firstBlock": {
-      "header": "로비(1F)",
-      "description": "사이공 트래블 라운지의 로비는 고풍스러운 인테리어와 아름다운 정원이 조화를 이루어 고객에게 편안함을 제공하고 있습니다. 고풍스러운 디자인 요소와 자연의 아름다움이 어우러져 편안하고 아늑한 분위기 속에서 여유로운 시간을 즐기실 수 있습니다.",
-      "bookNowButton": "지금 예약하세요"
+      "header": "로비 (1층)",
+      "description": "STL의 로비는 엔티크한 인테리어와 아름다운 정원이 조화를 이루며 고객들에게 편안함을 선사합니다. 고풍스러운 디자인 요소와 자연의 아름다움이 어우러져, 방문객들은 편안하고 아늑한 분위기 속에서 여유로운 시간을 즐길 수 있습니다.",
+      "bookNowButton": "지금 예약하기"
     },
     "secondBlock": {
       "bookedSlots": "예약된 슬롯",
       "capacity": "용량",
-      "experience": "경험"
+      "complete": "경험"
     },
     "thirdBlock": {
+      "header": "사이공 트래블 라운지는 상상 그 이상을 제공합니다.",
+      "description": "STL은 방문해주시는 모든 고객님들이 이곳에서 아름다운 시간을 보내실수있도록 하기위해 최선의 노력을 다할것입니다. 의미있는 순간으로 기억되실것입니다."
+    },
+    "fourthBlock": {
       "travelBooking": "여행 예약 서비스",
       "golfBooking": "골프 예약",
       "hotelBooking": "호텔 예약",
       "villaBooking": "빌라 예약",
-      "carRental": "자동차 렌트",
-      "airbnb": "에어비앤비",
+      "carRental": "자동차 대여",
+      "airbnb": "Airbnb",
       "tourPackages": "투어 패키지"
     },
-    "fourthBlock": {
+    "fifthBlock": {
       "placesNearby": "주변 장소",
-      "tanSonNhatAirport": "탄손누트 공항",
-      "turtleLake": "거북이 호수",
-      "independencePalace": "통일궁",
-      "ducBaCathedral": "독바 대성당",
-      "cityPostOffice": "시내 우체국",
-      "hoChiMinhOperaHouse": "호치민 오페라 하우스",
-      "saigonCentre": "사이공 센터",
-      "saigonBookStreet": "사이공 책거리",
-      "hoChiMinhCityMuseum": "호치민시 박물관",
-      "tranHungDaoStatue": "쩐흥다오 동상",
-      "warRemnetsMuseum": "전쟁기념관",
-      "diamondPlaza": "다이아몬드 플라자",
-      "vincomDongKhoi": "빈콤 동코이",
-      "benThanhMarket": "벤탄 시장"
+      "tanSonNhatAirport": "Tan Son Nhat Airport",
+      "turtleLake": "Turtle Lake",
+      "independencePalace": "Independence Palace",
+      "ducBaCathedral": "Duc Ba Cathedral",
+      "cityPostOffice": "City Post Office",
+      "hoChiMinhOperaHouse": "Ho Chi Minh Opera House",
+      "saigonCentre": "Saigon Centre",
+      "saigonBookStreet": "Saigon Book Street",
+      "hoChiMinhCityMuseum": "Ho Chi Minh City Museum",
+      "tranHungDaoStatue": "Tran Hung Dao Statue",
+      "warRemnetsMuseum": "War Remnets Museum",
+      "diamondPlaza": "Diamond Plaza",
+      "hoChiMinhCityCampaignMuseum": "Ho Chi Minh Campaign Museum",
+      "vincomDongKhoi": "Vincom Dong Khoi",
+      "benThanhMarket": "Ben Thanh Market"
     }
   },
-
   "servicePage": {
     "firstBlock": {
       "showerService": "샤워 서비스",
@@ -98,7 +102,6 @@
       "showPicture": "사진 보여주기"
     }
   },
-
   "aboutUs": {
     "firstBlock": {
       "titleOne": "STL",
@@ -164,7 +167,6 @@
         "nine": "무선 인터넷.",
         "ten": "TV."
       },
-
       "question4": "사이공 트래블 라운지에는 어떤 시설이 있나요?",
       "answer4": {
         "one": "바리스타와 바텐더.",
@@ -180,7 +182,6 @@
       "question6": "사이공 트래블 라운지의 금연/흡연 가능 규정은 어떻게 되나요?",
       "answer6": "Saigon Travel Lounge의 모든 객실과 시설은 금연실입니다.."
     },
-
     "gallery": {
       "firstBlock": {
         "building": "건물",
@@ -193,7 +194,6 @@
         "maleSleepingRoom": "남성 수면실"
       }
     },
-
     "footer": {
       "contact": {
         "title": "연락처",

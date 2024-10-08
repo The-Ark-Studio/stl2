@@ -64,17 +64,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/[locale]/header/headerTwo.jsx": {
+    "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./src/app/[locale]/header/headerTwo.jsx",
+        "id": "(sc_client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js": {
+    "(app-client)/./src/app/[locale]/footer/footer.jsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/app/[locale]/footer/footer.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -87,11 +87,131 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/[locale]/blog/blog.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[locale]/blog/blog.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[locale]/scroll-to-top/scrollToTop.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[locale]/scroll-to-top/scrollToTop.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[locale]/counter-services/counter-services.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[locale]/counter-services/counter-services.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[locale]/testimonial/testimonial.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[locale]/testimonial/testimonial.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[locale]/header/headerTwo.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[locale]/header/headerTwo.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[locale]/home-two/banner.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[locale]/home-two/banner.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[locale]/places-nearby/places-nearby.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[locale]/places-nearby/places-nearby.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/seo.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/seo.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/img/home/_ONY9901.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/img/home/_ONY9901.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/img/home/golf.webp": {
+      "*": {
+        "id": "(sc_client)/./public/img/home/golf.webp",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/img/home/hotel.webp": {
+      "*": {
+        "id": "(sc_client)/./public/img/home/hotel.webp",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/img/home/villa.webp": {
+      "*": {
+        "id": "(sc_client)/./public/img/home/villa.webp",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/img/home/carRental.webp": {
+      "*": {
+        "id": "(sc_client)/./public/img/home/carRental.webp",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/img/home/airbnb.webp": {
+      "*": {
+        "id": "(sc_client)/./public/img/home/airbnb.webp",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/img/home/tourPackage.webp": {
+      "*": {
+        "id": "(sc_client)/./public/img/home/tourPackage.webp",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/error-boundary.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -99,7 +219,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -107,7 +227,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/app-router.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -115,7 +235,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -123,7 +243,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/layout-router.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -131,7 +251,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -139,7 +259,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -147,7 +267,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -155,7 +275,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -163,7 +283,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -171,79 +291,79 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
       "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next-intl@3.20.0_next@13.4.9_react@18.2.0/node_modules/next-intl/dist/esm/shared/NextIntlClientProvider.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next-intl@3.20.0_next@13.4.9_react@18.2.0/node_modules/next-intl/dist/esm/shared/NextIntlClientProvider.js": {
       "id": "(app-client)/./node_modules/.pnpm/next-intl@3.20.0_next@13.4.9_react@18.2.0/node_modules/next-intl/dist/esm/shared/NextIntlClientProvider.js",
       "name": "*",
       "chunks": [
-        "app/[locale]/layout:static/chunks/app/[locale]/layout.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/nextjs-toploader@1.6.12_next@13.4.9_react-dom@18.2.0_react@18.2.0/node_modules/nextjs-toploader/dist/index.js": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/nextjs-toploader@1.6.12_next@13.4.9_react-dom@18.2.0_react@18.2.0/node_modules/nextjs-toploader/dist/index.js": {
       "id": "(app-client)/./node_modules/.pnpm/nextjs-toploader@1.6.12_next@13.4.9_react-dom@18.2.0_react@18.2.0/node_modules/nextjs-toploader/dist/index.js",
       "name": "*",
       "chunks": [
@@ -251,7 +371,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/styles/styles.css": {
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/styles/styles.css": {
       "id": "(app-client)/./src/app/[locale]/styles/styles.css",
       "name": "*",
       "chunks": [
@@ -259,7 +379,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/assets/css/all.css": {
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/assets/css/all.css": {
       "id": "(app-client)/./src/app/[locale]/assets/css/all.css",
       "name": "*",
       "chunks": [
@@ -267,7 +387,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/assets/css/meanmenu.min.css": {
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/assets/css/meanmenu.min.css": {
       "id": "(app-client)/./src/app/[locale]/assets/css/meanmenu.min.css",
       "name": "*",
       "chunks": [
@@ -275,7 +395,7 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/assets/sass/style.css": {
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/assets/sass/style.css": {
       "id": "(app-client)/./src/app/[locale]/assets/sass/style.css",
       "name": "*",
       "chunks": [
@@ -283,7 +403,79 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/header/headerTwo.jsx": {
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/footer/footer.jsx": {
+      "id": "(app-client)/./src/app/[locale]/footer/footer.jsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/blog/blog.jsx": {
+      "id": "(app-client)/./src/app/[locale]/blog/blog.jsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/scroll-to-top/scrollToTop.jsx": {
+      "id": "(app-client)/./src/app/[locale]/scroll-to-top/scrollToTop.jsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/counter-services/counter-services.jsx": {
+      "id": "(app-client)/./src/app/[locale]/counter-services/counter-services.jsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/testimonial/testimonial.jsx": {
+      "id": "(app-client)/./src/app/[locale]/testimonial/testimonial.jsx",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/header/headerTwo.jsx": {
       "id": "(app-client)/./src/app/[locale]/header/headerTwo.jsx",
       "name": "*",
       "chunks": [
@@ -291,47 +483,95 @@
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js",
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/home-two/banner.jsx": {
+      "id": "(app-client)/./src/app/[locale]/home-two/banner.jsx",
       "name": "*",
       "chunks": [
-        "app/[locale]/not-found:static/chunks/app/[locale]/not-found.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/link.js",
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/places-nearby/places-nearby.jsx": {
+      "id": "(app-client)/./src/app/[locale]/places-nearby/places-nearby.jsx",
       "name": "*",
       "chunks": [
-        "app/[locale]/not-found:static/chunks/app/[locale]/not-found.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/image-component.js": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/image-component.js",
+    "/Users/mac/Documents/STL/development/stl2/src/components/seo.jsx": {
+      "id": "(app-client)/./src/components/seo.jsx",
       "name": "*",
       "chunks": [
-        "app/[locale]/not-found:static/chunks/app/[locale]/not-found.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     },
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/esm/client/image-component.js": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.4.9_react-dom@18.2.0_react@18.2.0_sass@1.79.4/node_modules/next/dist/client/image-component.js",
+    "/Users/mac/Documents/STL/development/stl2/public/img/home/_ONY9901.jpg": {
+      "id": "(app-client)/./public/img/home/_ONY9901.jpg",
       "name": "*",
       "chunks": [
-        "app/[locale]/not-found:static/chunks/app/[locale]/not-found.js"
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/public/img/home/golf.webp": {
+      "id": "(app-client)/./public/img/home/golf.webp",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/public/img/home/hotel.webp": {
+      "id": "(app-client)/./public/img/home/hotel.webp",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/public/img/home/villa.webp": {
+      "id": "(app-client)/./public/img/home/villa.webp",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/public/img/home/carRental.webp": {
+      "id": "(app-client)/./public/img/home/carRental.webp",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/public/img/home/airbnb.webp": {
+      "id": "(app-client)/./public/img/home/airbnb.webp",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/mac/Documents/STL/development/stl2/public/img/home/tourPackage.webp": {
+      "id": "(app-client)/./public/img/home/tourPackage.webp",
+      "name": "*",
+      "chunks": [
+        "app/[locale]/page:static/chunks/app/[locale]/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/layout": [],
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/layout": [
+    "/Users/mac/Documents/STL/development/stl2/src/app/layout": [],
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/layout": [
       "static/css/app/[locale]/layout.css"
     ],
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/page": [
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/not-found": [],
+    "/Users/mac/Documents/STL/development/stl2/src/app/[locale]/page": [
       "static/css/app/[locale]/page.css"
-    ],
-    "/Users/trihieu/Desktop/Work/stl_stu_ver2/stl2/src/app/[locale]/not-found": []
+    ]
   }
 }
