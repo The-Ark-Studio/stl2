@@ -9,6 +9,7 @@ import {useTranslations} from 'next-intl';
 
 const PartnershipScreen = () => {
   const t = useTranslations('partnership');
+  const t2 = useTranslations('common');
   return (
     <Container className="partnership-container">
       <Row className="partnership-content">
@@ -39,46 +40,46 @@ const PartnershipScreen = () => {
         </Col>
         <Col lg={6} className="partnership-right-container">
           <Row className="partnership-right-item">
-            <SearchCustom />
+            <SearchCustom placeholder={t2('search')} />
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
 
           <Row className="partnership-right-item">
-            <div className="partnership-title-text">Recent Posts</div>
+            <div className="partnership-title-text">{t2('recentPost')}</div>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
           <Row className="partnership-right-item">
-            <div className="partnership-title-text"> Recent Comments</div>
-            <p className="partnership-text">No comments to show.</p>
+            <div className="partnership-title-text">{t2('recentComments')}</div>
+            <p className="partnership-text">{t2('noComment')}</p>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
 
           <Row className="mb-40 all__sidebar-item-search partnership-right-item">
             <form action="#">
               <input
                 className="input-search-second"
                 type="text"
-                placeholder="Search....."
+                placeholder={t2('search')}
               />
               <button type="submit">
                 <i className="fal fa-search"></i>
               </button>
             </form>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
 
           <Row className="partnership-right-item">
-            <div className="partnership-title-text">Category</div>
+            <div className="partnership-title-text">{t2('category')}</div>
             <div className="partnership-sub">
               <div className="partnership-icon">
                 <Folder2 size={22} />
               </div>
-              <div className="partnership-text">No categories</div>
+              <div className="partnership-text">{t2('noCategory')}</div>
             </div>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
           <Row className="partnership-right-item">
-            <div className="partnership-title-text">Archives</div>
+            <div className="partnership-title-text">{t2('archives')}</div>
           </Row>
         </Col>
       </Row>

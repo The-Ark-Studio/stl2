@@ -1,8 +1,9 @@
+import {useTranslations} from 'next-intl';
 import React from 'react';
 import {InputGroup, FormControl, Button} from 'react-bootstrap';
-import {Search} from 'react-bootstrap-icons';
 
 const SearchCustom = ({iconCustom, placeholder}) => {
+  const t = useTranslations('common'); // Assuming you have a translation hook in your app
   return (
     <div>
       <InputGroup className="mb-3 input-search-container">
@@ -20,7 +21,7 @@ const SearchCustom = ({iconCustom, placeholder}) => {
             iconCustom
           ) : (
             <p className="button-text" style={{margin: 0}}>
-              Search
+              {t('search')}
             </p>
           )}
         </Button>

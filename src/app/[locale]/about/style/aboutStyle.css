@@ -126,3 +126,44 @@
 .regulation-icon-item svg path {
     fill: var(--icon-grey-color)
 }
+
+.about__compensation {
+    margin-top: 120px;
+}
+
+@media (max-width: 992px) {
+    .left-title-bold {
+        font-size: 80px;
+    }
+
+    .about-left-title {
+        font-size: 60px;
+    }
+
+    .about-content-header {
+        padding-top: 10px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .about__regulation {
+        margin-top: 40px;
+    }
+
+    .about__regulation-top {
+        row-gap: 20px;
+    }
+
+    .about__regulation-icon svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-content-header {
+        font-size: 30px;
+    }
+
+    .about-icon-item {
+        text-align: center;
+    }
+}

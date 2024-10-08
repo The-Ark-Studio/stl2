@@ -1,14 +1,13 @@
 import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import SearchCustom from '../../../../components/search/SearchCustom';
-import ImageLogo from '../../../../../public/logo-1.png';
 import {Folder2} from 'react-bootstrap-icons';
-import Image from 'next/image';
 import '../style/faqsStyle.css';
 import {useTranslations} from 'next-intl';
 
 const FaqsScreen = () => {
   const t = useTranslations('faqs');
+  const t2 = useTranslations('common');
   return (
     <Container className="faqs-container">
       <Row className="faqs-content">
@@ -118,46 +117,46 @@ const FaqsScreen = () => {
         </Col>
         <Col lg={6} className="faqs-right-container">
           <Row className="faqs-right-item">
-            <SearchCustom />
+            <SearchCustom placeholder={t2('search')} />
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
 
           <Row className="faqs-right-item">
-            <div className="faqs-title-text">Recent Posts</div>
+            <div className="faqs-title-text">{t2('recentPost')}</div>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
           <Row className="faqs-right-item">
-            <div className="faqs-title-text"> Recent Comments</div>
-            <p className="faqs-text">No comments to show.</p>
+            <div className="faqs-title-text">{t2('recentComments')}</div>
+            <p className="faqs-text">{t2('noComment')}</p>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
 
           <Row className="mb-40 all__sidebar-item-search faqs-right-item">
             <form action="#">
               <input
                 className="input-search-second"
                 type="text"
-                placeholder="Search....."
+                placeholder={t2('search')}
               />
               <button type="submit">
                 <i className="fal fa-search"></i>
               </button>
             </form>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
 
           <Row className="faqs-right-item">
-            <div className="faqs-title-text">Category</div>
+            <div className="faqs-title-text">{t2('category')}</div>
             <div className="faqs-sub">
               <div className="faqs-icon">
                 <Folder2 size={22} />
               </div>
-              <div className="faqs-text">No categories</div>
+              <div className="faqs-text">{t2('noCategory')}</div>
             </div>
           </Row>
-          <hr class="hr divider-item" />
+          <hr className="hr divider-item" />
           <Row className="faqs-right-item">
-            <div className="faqs-title-text">Archives</div>
+            <div className="faqs-title-text">{t2('archives')}</div>
           </Row>
         </Col>
       </Row>

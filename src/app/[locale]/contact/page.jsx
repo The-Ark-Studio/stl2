@@ -2,7 +2,7 @@
 // import BreadCrumb from '../breadcrumb/breadcrumb';
 // import Footer from '../footer/footer';
 // import HeaderOne from '../header/HeaderOne';
-// import ScrollToTopButton from '../scroll-to-top/scrollToTop';
+import ScrollToTopButton from '../scroll-to-top/scrollToTop';
 import ContactScreen from './partials/ContactScreen';
 import HeaderTwo from '@app/[locale]/header/headerTwo';
 
@@ -11,6 +11,7 @@ const Contact = () => {
     <>
       <HeaderTwo />
       <ContactScreen />
+      <ScrollToTopButton />
       {/* <SEO pageTitle="Contact Us" />
         <HeaderOne />
         <BreadCrumb title="Contact Us" innerTitle="Contact Us" bgImage="/img/banner/page-banner-5.jpg"/>
