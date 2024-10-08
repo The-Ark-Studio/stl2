@@ -29,7 +29,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/custom.d.ts"
-, "src/app/[locale]/services-details/partials/GallerySection.jsx", "src/middleware.tsx"  ],
+    "src/custom.d.ts",
+    "src/app/[locale]/service/partials/GallerySection.jsx",
+    "src/middleware.tsx"
+  ],
   "exclude": ["node_modules"]
 }

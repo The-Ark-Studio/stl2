@@ -3,7 +3,7 @@ import {useTranslations, useLocale} from 'next-intl';
 import React, {useEffect, useRef, useState} from 'react';
 import {Blog, Home, Service, Room} from './Menu';
 import DropDown from './DropDown';
-import Link from 'next/link';
+
 import SideBar from './sidebar/sidebar';
 // import Search from './sidebar/search';
 import BookNow from '@components/book-now/book-now';
@@ -11,6 +11,7 @@ import styles from '../assets/css/language.module.css';
 // import LanguageIcon from "@/public/img/Language.png";
 import LanguageIcon from '../../../../public/img/Language.png';
 import {useRouter, usePathname} from 'next/navigation';
+import {Link} from '@i18n/routing';
 
 const HeaderTwo = ({variant}) => {
   const t = useTranslations('header');
@@ -38,9 +39,9 @@ const HeaderTwo = ({variant}) => {
 
     console.log('newPath', newPath);
 
-    startTransition(() => {
-      router.replace(newPath);
-    });
+    // startTransition(() => {
+    //   router.replace(newPath);
+    // });
   };
 
   const handleClick = () => {
@@ -116,7 +117,7 @@ const HeaderTwo = ({variant}) => {
                     </DropDown>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="/service">{t('Nav.service')}</a>
+                    <Link href="/service">{t('Nav.service')}</Link>
                     <DropDown>
                       <ul className="sub-menu">
                         <Service />
@@ -124,7 +125,7 @@ const HeaderTwo = ({variant}) => {
                     </DropDown>
                   </li>
                   <li className="menu-item">
-                    <a href="/gallery">{t('Nav.gallery')}</a>
+                    <Link href="/gallery">{t('Nav.gallery')}</Link>
                   </li>
                 </ul>
               </div>

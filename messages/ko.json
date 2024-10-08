@@ -193,6 +193,14 @@
       "answer6": "Saigon Travel Lounge의 모든 객실과 시설은 금연실입니다.."
     }
   },
+
+  "partnership": {
+    "firstBlock": {
+      "header": "공동",
+      "description": "곧 출시됩니다...",
+      "descriptionTwo": "업데이트를 기다리는 중..."
+    }
+  },
   "footer": {
     "contact": {
       "title": "연락처",

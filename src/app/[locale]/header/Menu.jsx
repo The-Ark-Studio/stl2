@@ -1,5 +1,6 @@
+import {Link} from '@i18n/routing';
 import {useTranslations} from 'next-intl';
-import Link from 'next/link';
+// import Link from 'next/link';
 import {Fragment} from 'react';
 export const Home = () => {
   const t = useTranslations('header');
@@ -24,7 +25,7 @@ export const Service = () => {
         <Link href="/contact">{t('Nav.contact')}</Link>
       </li>
       <li>
-        <Link href="/partner">{t('Nav.partnerShip')}</Link>
+        <Link href="/partnership">{t('Nav.partnerShip')}</Link>
       </li>
       {/* <li><Link href="/404-error">404 Page</Link></li> */}
     </Fragment>

@@ -5,14 +5,14 @@
 // import Feature from "./feature/feature";
 // import Footer from "./footer/footer";
 // import ScrollToTopButton from "./scroll-to-top/scrollToTop";
-import Services from './services/services';
+// import Services from './services/services';
 // import Testimonial from "./testimonial/testimonial";
 // import Videoarea from "./videoarea/videoarea";
 // import SEO from "../components/seo";
 // import Home2 from "./home-two/page";
 
 import HeaderTwo from './header/headerTwo';
-import Servicedetails from './services-details/service-details';
+// import Servicedetails from './service/service-details';
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
       <Deluxe />
       <Videoarea /> */}
       {/* <Services /> */}
-      <Servicedetails />
+      {/* <Servicedetails /> */}
       {/* <Feature />
       <Testimonial />
       <Blog />

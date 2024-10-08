@@ -191,6 +191,13 @@
       "maleSleepingRoom": "Male Sleeping Room"
     }
   },
+  "partnership": {
+    "firstBlock": {
+      "header": "Partnership",
+      "description": "Coming soon...",
+      "descriptionTwo": "Waiting to be updated..."
+    }
+  },
   "footer": {
     "contact": {
       "title": "CONTACT",
