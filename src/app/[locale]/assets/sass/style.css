@@ -3425,7 +3425,7 @@ Menu Bar
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 99999;
+  z-index: 999;
   border-bottom: 1px solid var(--border-color-1);
   padding: 0 50px;
 }
@@ -4403,6 +4403,11 @@ Banner Three
 .banner__three-title .subtitle__one {
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.banner__three-title h1 {
+  font-weight: 500;
   margin-bottom: 50px;
   color: var(--bs-secondary);
 }
@@ -4414,6 +4419,7 @@ Banner Three
 }
 
 .banner__three-title h2 span {
+  /* .banner__three-title h1 span { */
   font-size: 60px;
   line-height: 70px;
   display: block;
@@ -4817,29 +4823,27 @@ Services
   margin-top: 20px;
 }
 
-.services__area-item-icon i {
-  font-size: 40px;
-  color: var(--primary-color);
-  margin-top: 18px;
+.services__area-item-icon img {
+  max-width: 40px;
 }
 
 .services__area-item-content {
   overflow: hidden;
 }
 
-.services__area-item-content h1 {
+.services__area-item-content h5 {
   margin-bottom: 5px;
 }
 
-.services__area-item-content h1 a {
+.services__area-item-content h5 a {
   transition: all 0.4s ease-in-out;
 }
 
-.services__area-item-content h1 a:hover {
+.services__area-item-content h5 a:hover {
   color: var(--primary-color);
 }
 
-.services__area-item-content h5 {
+.services__area-item-content p {
   margin: 0;
   max-width: 305px;
   color: var(--bs-secondary);
@@ -4933,8 +4937,8 @@ Services Two
     margin-right: 20px;
   }
 
-  .services__area-item-icon i {
-    font-size: 35px;
+  .services__area-item-icon img {
+    max-width: 35px;
   }
 }
 
@@ -4948,8 +4952,8 @@ Services Two
     float: initial;
   }
 
-  .services__area-item-icon i {
-    font-size: 40px;
+  .services__area-item-icon img {
+    max-width: 40px;
   }
 }
 
@@ -8601,7 +8605,7 @@ Contact
   width: 100%;
   height: 570px;
   display: block;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 
 /*# sourceMappingURL=style.css.map */

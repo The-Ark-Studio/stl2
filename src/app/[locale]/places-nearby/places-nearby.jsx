@@ -103,13 +103,13 @@ export default function PlacesNearBy() {
     "distances": "1.3km",
   };
   const tanSonNhat = {
-    "id": "13",
+    "id": "14",
     "img": TanSonNhatAirport.src,
     "title": t('tanSonNhatAirport'),
     "distances": "6.0km",
   };
   const benThanh = {
-    "id": "13",
+    "id": "15",
     "img": BenThanhMarket.src,
     "title": t('benThanhMarket'),
     "distances": "2.2km",

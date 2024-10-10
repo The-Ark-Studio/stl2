@@ -92,7 +92,7 @@
       "showPicture": "사진 보여주기"
     },
     "seventhBlock": {
-      "manicure&Massage6f": "매니큐어 & 마사지 (6F)",
+      "manicureAndMassage6f": "매니큐어 & 마사지 (6F)",
       "description": "STL 뷰티/헬스룸에서는 고품격 바디 마사지 서비스를 제공하여 몸과 마음의 피로를 풀어주는 특별한 경험을 선사합니다. 또한, 세심하게 관리되는 네일 서비스가 함께 제공되어 몸부터 손끝까지 아름다움을 가꿀 수 있습니다. 이곳에서 고객은 편안함과 아름다움을 동시에 누리며 진정한 힐링의 시간을 가질 수 있습니다.",
       "showPicture": "사진 보여주기"
     },
@@ -106,7 +106,8 @@
     "firstBlock": {
       "titleOne": "STL",
       "titleTwo": "라운지",
-      "titleThree": "이야기…"
+      "titleThree": "이야기…",
+      "description": "사이공 트래블 라운지(Saigon Travel Lounge)는 호치민시를 방문하는 여행객을 위해 설계된 외부 공항 라운지 서비스입니다. 호텔 체크인 전이나 체크아웃 후 편안하게 쉴 수 있는 공간을 제공하며, 조용하고 아늑한 분위기를 선사합니다. 무료 Wi-Fi, 음료 및 스낵, 뷔페 이용, 샤워 시설, 수면실, 카페테리아를 갖추고 있어 고객의 피로를 덜어드립니다. 사이공 트래블 라운지는 고객이 편안하고 즐거운 여행 경험을 할 수 있도록 최선을 다하고 있습니다."
     },
     "secondBlock": {
       "title": "우리를 선택하는 이유",
@@ -146,9 +147,30 @@
       "description3": "라운지 내에서 도난이나 폭력이 발생한 경우, 가해자에게 100% 배상 책임과 법적 책임이 있습니다.",
       "title4": "4. 고객 피해에 대한 보상",
       "description4": "사이공 트래블 라운지는 제공되는 음식 및 시설로 인해 발생하는 모든 사고에 대해 전적인 책임을 지며, 의료비 및 손해배상을 약속합니다."
+    },
+    "eighthBlock": {
+      "title": "운송 서비스",
+      "description": "픽업 및 샌딩 서비스는 고객에게 편리한 원스톱 솔루션을 제공하여 여행의 번거로움을 줄이고 보다 쉽게 ​​여행을 즐길 수 있도록 도와줍니다."
+    },
+    "nineBlock": {
+      "title": "긴급 지원 서비스",
+      "description": "예상치 못한 사고가 발생한 경우 여행자를 돕기 위한 \"도우미\" 서비스를 제공하며 여권 분실, 교통 사고, 의료 응급 상황, 범죄 연루 등의 문제에 대한 행정적 지원을 제공합니다."
+    }
+  },
+  "gallery": {
+    "firstBlock": {
+      "building": "건물",
+      "lobby": "로비",
+      "cafeteria": "카페테리아",
+      "buffet": "타격",
+      "bathroom": "화장실",
+      "femaleSleepingRoom": "여성 수면실",
+      "manicureAndMassage": "매니큐어 및 마사지",
+      "maleSleepingRoom": "남성 수면실"
     }
   },
   "faqs": {
+    "title": "자주 묻는 질문",
     "firstBlock": {
       "question1": "가장 가까운 공항에서 사이공 트래블 라운지(STL)까지 어떻게 이동할 수 있나요?",
       "answer1": "라운지 예약 시 또는 택시 이용 시 픽업 서비스(유료)를 요청하실 수 있습니다.",
@@ -181,42 +203,46 @@
       "answer5": "우리의 최대 용량은 하루 최대 80명까지 제공할 수 있습니다.",
       "question6": "사이공 트래블 라운지의 금연/흡연 가능 규정은 어떻게 되나요?",
       "answer6": "Saigon Travel Lounge의 모든 객실과 시설은 금연실입니다.."
-    },
-    "gallery": {
-      "firstBlock": {
-        "building": "건물",
-        "lobby": "로비",
-        "cafeteria": "카페테리아",
-        "buffet": "타격",
-        "bathroom": "화장실",
-        "femaleSleepingRoom": "여성 수면실",
-        "manicureAndMassage": "매니큐어 및 마사지",
-        "maleSleepingRoom": "남성 수면실"
+    }
+  },
+  "partnership": {
+    "firstBlock": {
+      "header": "공동",
+      "description": "곧 출시됩니다...",
+      "descriptionTwo": "업데이트를 기다리는 중..."
+    }
+  },
+  "common": {
+    "search": "찾다",
+    "recentPost": "최근 게시물",
+    "recentComments": "최근 댓글",
+    "noComment": "표시할 댓글이 없습니다.",
+    "category": "범주",
+    "noCategory": "카테고리 없음",
+    "archives": "아카이브"
+  },
+  "footer": {
+    "contact": {
+      "title": "연락처",
+      "email": "support@stl.sg",
+      "phone": "02836223390",
+      "address": "95 Vo Thi Sau길, 6등, 3군, 호치민 시, 베트남",
+      "check_map": {
+        "title": "지도 확인",
+        "link": "https://www.google.com/maps/place/95+%C4%90.+V%C3%B5+Th%E1%BB%8B+S%C3%A1u,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000/@10.7866873,106.6884141,17z/data=!4m6!3m5!1s0x31752f3254c86d61:0x31fa21392192d696!8m2!3d10.786682!4d106.690989!16s%2Fg%2F11c20vt2hx?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
       }
     },
-    "footer": {
-      "contact": {
-        "title": "연락처",
-        "email": "support@stl.sg",
-        "phone": "02836223390",
-        "address": "95 Vo Thi Sau길, 6등, 3군, 호치민 시, 베트남",
-        "check_map": {
-          "title": "지도 확인",
-          "link": "https://www.google.com/maps/place/95+%C4%90.+V%C3%B5+Th%E1%BB%8B+S%C3%A1u,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000/@10.7866873,106.6884141,17z/data=!4m6!3m5!1s0x31752f3254c86d61:0x31fa21392192d696!8m2!3d10.786682!4d106.690989!16s%2Fg%2F11c20vt2hx?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
-        }
-      },
-      "travel_booking": {
-        "title": "여행 예약",
-        "email": "kpglee44@naver.com",
-        "phone": "01067352180 (한국 전화번호)",
-        "kakao": "카카오톡 아이디: kpglee44"
-      },
-      "stay_in_touch": {
-        "title": "소셜 네트워크 서비스",
-        "facebook": "https://www.facebook.com/saigontravellounge.kr",
-        "instagram": "https://www.instagram.com/saigontravellounge.kr/",
-        "tiktok": "https://www.tiktok.com/@saigontravellounge.kr"
-      }
+    "travel_booking": {
+      "title": "여행 예약",
+      "email": "kpglee44@naver.com",
+      "phone": "01067352180 (한국 전화번호)",
+      "kakao": "카카오톡 아이디: kpglee44"
+    },
+    "stay_in_touch": {
+      "title": "소셜 네트워크 서비스",
+      "facebook": "https://www.facebook.com/saigontravellounge.kr",
+      "instagram": "https://www.instagram.com/saigontravellounge.kr/",
+      "tiktok": "https://www.tiktok.com/@saigontravellounge.kr"
     }
   }
 }

@@ -92,7 +92,7 @@
       "showPicture": "Show picture"
     },
     "seventhBlock": {
-      "manicure&Massage6f": "Manicure & Massage (6F)",
+      "manicureAndMassage6f": "Manicure & Massage (6F)",
       "description": "STL Beauty/Health Room offers high-quality body massage services, providing a special experience to relieve body and mind fatigue. In addition, it comes with a carefully managed nail service, so you can take care of the beauty from your body to your fingertips. Here, customers can enjoy both comfort and beauty, and have a time of real healing.",
       "showPicture": "Show picture"
     },
@@ -106,7 +106,8 @@
     "firstBlock": {
       "titleOne": "OUR",
       "titleTwo": "Lounge",
-      "titleThree": "Story…"
+      "titleThree": "Story…",
+      "description": "The Saigon Travel Lounge is an external airport lounge service designed for travelers visiting Ho Chi Minh City. It provides a comfortable space to relax before hotel check-in or after check-out, offering a quiet and cozy atmosphere. With free Wi-Fi, beverages and snacks, buffet access, shower facilities, sleeping rooms, and a cafeteria, it alleviates the fatigue of customers. The Saigon Travel Lounge is dedicated to ensuring that customers have a comfortable and enjoyable travel experience"
     },
     "secondBlock": {
       "title": "WHY CHOOSE US",
@@ -146,9 +147,18 @@
       "description3": "In the event of theft or violence occurring in the lounge, the perpetrator will be 100% responsible for compensation and legal liability.",
       "title4": "4. Compensation for customer damages",
       "description4": "Saigon Travel Lounge will take full responsibility for any accidents that occur due to the food and facilities provided, and promises to cover medical expenses and compensation for damages."
+    },
+    "eighthBlock": {
+      "title": "Transportation Service",
+      "description": "The pickup and sending service offers customers a convenient one-stop solution, reducing the hassle of travel and helping them enjoy their journey more easily."
+    },
+    "nineBlock": {
+      "title": "Emergency Support Services",
+      "description": "We provide a \"helper\" service to assist travelers in case of unforeseen accidents, offering administrative support for issues such as passport loss, traffic accidents, medical emergencies, and involvement in crimes."
     }
   },
   "faqs": {
+    "title": "FAQs",
     "firstBlock": {
       "question1": "How can I get to Saigon Travel Lounge (STL) from the nearest airport?",
       "answer1": "You can request a pick-up service (charged) when making a lounge reservation or take a taxi.",
@@ -195,6 +205,23 @@
       "maleSleepingRoom": "Male Sleeping Room"
     }
   },
+  "partnership": {
+    "firstBlock": {
+      "header": "Partnership",
+      "description": "Coming soon...",
+      "descriptionTwo": "Waiting to be updated..."
+    }
+  },
+  "common": {
+    "search": "Search",
+    "recentPost": "Recent Posts",
+    "recentComments": "Recent Comments",
+    "noComment": "No comments to show.",
+    "category": "Category",
+    "noCategory": "No categories",
+    "archives": "Archives"
+  },
+
   "footer": {
     "contact": {
       "title": "CONTACT",
