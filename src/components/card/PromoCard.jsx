@@ -5,15 +5,16 @@ import ButtonCustom from '../button/ButtonCustom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './promoStyle.css';
 
-const PromoCard = ({promo, title, description, buttonText}) => {
+const PromoCard = ({promo, title, description, buttonText, imgUrl, alt}) => {
   return (
-    <Card className='card-promo' style={{width: '18rem'}}>
+    <Card className="card-promo" style={{width: '18rem'}}>
       <div className="card-content-wrap">
         <div className="position-relative">
           <CardImg
             className="card-img"
             variant="top"
-            src="https://via.placeholder.com/150"
+            src={imgUrl ?? 'https://via.placeholder.com/150'}
+            alt={alt ?? 'Image Error'}
           />
           <div className="promo-item" style={{borderRadius: 6}}>
             {promo ?? '30%'} Off

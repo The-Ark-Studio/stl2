@@ -11,6 +11,14 @@ const FaqsScreen = () => {
   const t2 = useTranslations('common');
   return (
     <Container className="faqs-container">
+      {/* promoCard */}
+      {/* <PromoCard
+        buttonText="Main action"
+        imgUrl={
+          'https://images.unsplash.com/photo-1495360010541-f48722b34f7d?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        }
+      /> */}
+      {/*  */}
       <Row className="faqs-content">
         <Col lg={8} className="faqs-left-container">
           <div className="faqs-left-title b-title-text-32">{t('title')}</div>
