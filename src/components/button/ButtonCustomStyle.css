@@ -1,0 +1,23 @@
+.btn-custom {
+    font-size: 16px;
+    text-align: center;
+    color: var(--white-color);
+    background: var(--primary-color);
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    transition: all 0.3s;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.btn-custom:hover {
+    opacity: 0.9;
+}

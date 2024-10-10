@@ -2,8 +2,9 @@ import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import SearchCustom from '../../../../components/search/SearchCustom';
 import {Folder2} from 'react-bootstrap-icons';
-import '../style/faqsStyle.css';
+import PromoCard from '../../../../components/card/PromoCard';
 import {useTranslations} from 'next-intl';
+import '../style/faqsStyle.css';
 
 const FaqsScreen = () => {
   const t = useTranslations('faqs');
@@ -11,7 +12,7 @@ const FaqsScreen = () => {
   return (
     <Container className="faqs-container">
       <Row className="faqs-content">
-        <Col lg={7} className="faqs-left-container">
+        <Col lg={8} className="faqs-left-container">
           <div className="faqs-left-title b-title-text-32">{t('title')}</div>
           <Row>
             <div className="faqs-left-title b-title-text-22-bold">
@@ -115,7 +116,7 @@ const FaqsScreen = () => {
             </div>
           </Row>
         </Col>
-        <Col lg={6} className="faqs-right-container">
+        <Col xl={4} className="faqs-right-container">
           <Row className="faqs-right-item">
             <SearchCustom placeholder={t2('search')} />
           </Row>

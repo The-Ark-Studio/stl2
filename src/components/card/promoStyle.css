@@ -1,0 +1,21 @@
+.card-promo {
+    background: var(--promo-card-bg-color);
+    border: none;
+    box-shadow: 0px -14px 16px -23px rgba(0, 0, 0, 0.1);
+}
+
+.promo-item {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: var(--promo-background-color);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 12px;
+    color: var(--promo-color);
+
+}
+
+.card-content-wrap {
+    padding: 20px;
+}

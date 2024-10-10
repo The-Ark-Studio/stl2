@@ -44,7 +44,7 @@ const ContactScreen = () => {
                         </div>
                       </div>
                       <div className="mb-4 card-item">
-                        <i class="fal fa-house" aria-hidden="true"></i>
+                        <i className="fal fa-house" aria-hidden="true"></i>
                         <div>
                           <a
                             href="https://maps.app.goo.gl/XkLE6AJUNncmGecs9"
