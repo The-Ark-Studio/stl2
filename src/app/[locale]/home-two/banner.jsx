@@ -3,10 +3,14 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import ModalVideo from "react-modal-video";
 import BannerImage from "../../../../public/img/home/_ONY0001.jpg";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import 'react-modal-video/css/modal-video.css';
+
 
 const Banner = () => {
   const t = useTranslations('homePage.firstBlock')
+  const locale = useLocale();
+  const bookingURL = `https://booking.stl.sg/${locale}/`;
   const [isOpen, setOpen] = useState(false);
   useEffect(() => {
     // Mở video khi component lần đầu được tải
@@ -35,7 +39,7 @@ const Banner = () => {
               </h2>
               <span className="subtitle__one">{t('description')}</span>
 
-              <Link className="theme-btn" href="https://booking.stl.com">
+              <Link className="theme-btn" href={bookingURL} target="_blank" rel="noopener noreferrer">
                 {t('bookNowButton')}<i className="fal fa-long-arrow-right"></i>
               </Link>
               <div className="banner__three-title-video">
@@ -47,6 +51,7 @@ const Banner = () => {
                       videoId="r5dZ26FgrD0"//"agethgLsIts" // Chỉ lấy video ID mà không thêm tham số autoplay
                       onClose={() => setOpen(false)}
                       autoplay={true} // Thêm thuộc tính autoplay
+                      mute
                     />
                     <span onClick={() => setOpen(true)}>
                       <i className="fas fa-play"></i>

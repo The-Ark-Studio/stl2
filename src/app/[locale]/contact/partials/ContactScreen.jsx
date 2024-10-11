@@ -1,14 +1,18 @@
 import react from 'react';
-import {Facebook, Instagram, Linkedin} from 'react-bootstrap-icons';
-import {Container, Row, Col, Card, CardBody} from 'react-bootstrap';
+import { Facebook, Instagram, Linkedin } from 'react-bootstrap-icons';
+import { Container, Row, Col, Card, CardBody } from 'react-bootstrap';
 import Image from 'next/image';
 import '../styles/contactStyle.css';
+import { useTranslations } from "next-intl";
 const ContactScreen = () => {
+
+  const t = useTranslations('footer');
+
   return (
     <>
-      <Container style={{marginTop: 200}} className="">
+      <Container style={{ marginTop: 200 }} className="">
         <Row>
-          <h3 className="my-4 contact-title-top">Location</h3>
+          <h3 className="my-4 contact-title-top">{t('contact.location')}</h3>
           <Card className="card-container">
             <Row>
               <Col xl={8} lg={12}>
@@ -16,19 +20,19 @@ const ContactScreen = () => {
                   <CardBody>
                     <CardBody>
                       <h2 className="contact__card-title">
-                        SAIGON TRAVEL LOUNGE
+                        {t('contact.systemName')}
                       </h2>
                       <p className="contact__card-sub-title">
-                        How to contact with us
+                        {t('contact.howToContact')}
                       </p>
                       <div className="mb-4 card-item">
                         <i className="fal fa-envelope" aria-hidden="true"></i>
                         <div>
                           <a
-                            href="mailto:support@stl.sg"
+                            href={"mailto:" + t('contact.email')}
                             className="text-white item-text d-inline-block"
                           >
-                            support@stl.sg
+                            {t('contact.email')}
                           </a>
                         </div>
                       </div>
@@ -39,7 +43,7 @@ const ContactScreen = () => {
                             href="tel:+84934425031"
                             className="text-white item-text d-inline-block"
                           >
-                            +84 0934 425 031
+                            {t('contact.phone')}
                           </a>
                         </div>
                       </div>
@@ -50,8 +54,7 @@ const ContactScreen = () => {
                             href="https://maps.app.goo.gl/XkLE6AJUNncmGecs9"
                             className="text-white item-text d-inline-block"
                           >
-                            96 Vo Thi Sau street, ward 6, District 3, Ho Chi
-                            Minh 70000, Viet Nam
+                            {t('contact.address')}
                           </a>
                         </div>
                       </div>
@@ -72,11 +75,9 @@ const ContactScreen = () => {
                 </Card>
               </Col>
               <Col className="content-text">
-                <h2 className="card-second-title">Suggestions and Questions</h2>
+                <h2 className="card-second-title">{t('contact.suggestionAndQuestion.title')}</h2>
                 <p className="card-description">
-                  If you send us suggestions or questions regarding Saigon
-                  Travel Lounge, we will actively consider them to provide
-                  better services.
+                  {t('contact.suggestionAndQuestion.description')}
                 </p>
               </Col>
             </Row>

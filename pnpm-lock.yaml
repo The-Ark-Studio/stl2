@@ -56,12 +56,12 @@ importers:
       react-icons:
         specifier: ^4.10.1
         version: 4.12.0(react@18.3.1)
+      react-modal-video:
+        specifier: ^2.0.2
+        version: 2.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-responsive-carousel:
         specifier: ^3.2.23
         version: 3.2.23
-      react-video-modal:
-        specifier: ^0.0.1
-        version: 0.0.1
       sass:
         specifier: ^1.67.0
         version: 1.79.4
@@ -615,6 +615,9 @@ packages:
 
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+
+  core-js@3.38.1:
+    resolution: {integrity: sha512-OP35aUorbU3Zvlx7pjsFdu1rGNnD4pgw/CWoYzRY3t2EzoVT7shKHY1dlAy3f41cGIO7ZDPQimhGFTlEYkG/Hw==}
 
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
@@ -1422,6 +1425,12 @@ packages:
   react-lifecycles-compat@3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
 
+  react-modal-video@2.0.2:
+    resolution: {integrity: sha512-Cfo3rEsxU5BL+Et/nRK7l2ajW/TLZOKTMPgpD8FDlhIxRR3yqo3Xdo1ufNxONApN0XL6iXqmMkqyEKmGOmcEiw==}
+    peerDependencies:
+      react: ^17.0.0 || ^18.2.0
+      react-dom: ^17.0.0 || ^18.2.0
+
   react-responsive-carousel@3.2.23:
     resolution: {integrity: sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg==}
 
@@ -1430,9 +1439,6 @@ packages:
     peerDependencies:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
-
-  react-video-modal@0.0.1:
-    resolution: {integrity: sha512-Z1nfmYwbEXdI+9uKOoWpep8dwoccIgDUr/N+Ajy6u0EEyXglQl0ICOCD83H7xUYhEO2OkIUgDJ9s5UF1DZfRTw==}
 
   react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
@@ -2301,6 +2307,8 @@ snapshots:
       color-string: 1.9.1
 
   concat-map@0.0.1: {}
+
+  core-js@3.38.1: {}
 
   cross-spawn@7.0.3:
     dependencies:
@@ -3304,6 +3312,13 @@ snapshots:
 
   react-lifecycles-compat@3.0.4: {}
 
+  react-modal-video@2.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      core-js: 3.38.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+
   react-responsive-carousel@3.2.23:
     dependencies:
       classnames: 2.5.1
@@ -3318,8 +3333,6 @@ snapshots:
       prop-types: 15.8.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-
-  react-video-modal@0.0.1: {}
 
   react@18.3.1:
     dependencies:

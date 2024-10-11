@@ -16,3 +16,13 @@
     width: 100px;
     /* Thiết lập chiều rộng cho select */
 }
+
+@media (max-width:992px) {
+    .language-icon-wrap {
+        position: absolute;
+        top: -120px;
+        right: 15vw
+    }
+}
+
+@media (max-width: 768px) {}

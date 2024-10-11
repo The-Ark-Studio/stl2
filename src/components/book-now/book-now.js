@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from '@/app/[locale]/assets/css/booknow.module.css';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 const BookNow = () => {
     const t = useTranslations('header');
+    const locale = useLocale();
+    const bookingURL = `https://booking.stl.sg/${locale}/`;
+
     const handleClick = () => {
-        window.location.href = 'https://booking.stl.com';
+        window.location.href = bookingURL;
     };
 
     return (

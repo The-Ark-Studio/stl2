@@ -20,7 +20,7 @@
 
 
 .service__top-contain {
-    max-width: 682px !important;
+    max-width: 782px !important;
     margin: 0 auto;
 
 }
@@ -45,6 +45,10 @@
     width: 100%;
 }
 
+.top-item-wrap i {
+    color: var(--primary-color)
+}
+
 .service-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -60,7 +64,7 @@
 
 @media (max-width:992px) {
     .service__top-contain {
-        max-width: 500px !important;
+        max-width: 600px !important;
         margin: 0 auto;
     }
 

@@ -13,12 +13,17 @@
 
 .about-left-title {
     font-size: 94px;
-    font-weight: 700;
-    color: var(--service-description-color)
+    font-weight: 300;
+    color: var(--service-description-color);
+    display: flex;
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
 }
 
 .left-title-bold {
     font-size: 150px;
+    margin-right: 5px;
+    /* Thêm khoảng cách giữa chữ viết hoa và chữ thường */
 }
 
 
@@ -97,7 +102,11 @@
     margin-top: 80px;
 }
 
-
+.about__regulation-icon {
+    font-size: 80px;
+    color: var(--primary-color);
+    background-color: white;
+}
 
 .about__regulation-top {
     display: flex;
@@ -116,16 +125,25 @@
     font-size: 19px;
 }
 
-.regulation-icon-item,
+.regulation-icon-item {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    height: 60px;
+    /* Đặt chiều cao để căn giữa theo chiều dọc */
+}
+
 .regulation-item-title,
 .regulation-item-description {
     height: 60px;
     justify-content: stretch;
 }
 
-.regulation-icon-item svg path {
+/* .regulation-icon-item svg path {
     fill: var(--icon-grey-color)
-}
+} */
 
 .about__compensation {
     margin-top: 120px;

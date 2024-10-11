@@ -1,11 +1,13 @@
 'use client';
-import react, {useState} from 'react';
-import {Modal, ModalBody} from 'react-bootstrap';
+import react, { useState } from 'react';
+import { Modal, ModalBody } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/galleryStyle.css';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
-const GalleryImages = ({imageUrls}) => {
+const GalleryImages = ({ imageUrls }) => {
+  const t = useTranslations('gallery');
   const [show, setShow] = useState(false);
   const [selectedImage, setSelectedImage] = useState('');
 
@@ -28,13 +30,13 @@ const GalleryImages = ({imageUrls}) => {
                 alt={`Gallery item ${index + 1}`}
                 className="rounded-2"
                 onClick={() => handleShow(url)}
-                style={{cursor: 'pointer', maxHeight: 278}}
+                style={{ cursor: 'pointer', maxHeight: 278 }}
               />
             </div>
           ))
         ) : (
           <div className="empty-image">
-            <h3 className="empty-image-text">No Image Available.</h3>
+            <h3 className="empty-image-text">{t('noImageData')}</h3>
           </div>
         )}
       </div>
@@ -54,11 +56,11 @@ const GalleryImages = ({imageUrls}) => {
               src={selectedImage}
               alt="Preview"
               className="img-fluid"
-              //   style={{
-              //     maxHeight: '90vh',
-              //     maxWidth: '90vw',
-              //     objectFit: 'contain',
-              //   }}
+            //   style={{
+            //     maxHeight: '90vh',
+            //     maxWidth: '90vw',
+            //     objectFit: 'contain',
+            //   }}
             />
           </div>
         </ModalBody>
@@ -66,4 +68,6 @@ const GalleryImages = ({imageUrls}) => {
     </div>
   );
 };
+
 export default GalleryImages;
+

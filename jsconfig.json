@@ -9,8 +9,11 @@
         "./public/*"
       ],
       "@components/*": [
-        "components/*"
-      ]
+        "./components/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
     },
   }
 }

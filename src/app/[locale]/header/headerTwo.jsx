@@ -84,7 +84,7 @@ const HeaderTwo = ({ variant }) => {
               </div>
             </div>
             <div className="header__area-menubar-right three">
-              <div className="header__area-menubar">
+              <div className="header__area-menubar-right-menu menu-responsive">
                 <div className={styles['language-icon-wrap']}>
                   <img
                     src={LanguageIcon.src}

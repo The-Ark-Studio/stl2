@@ -4404,6 +4404,7 @@ Banner Three
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 10px;
+  text-transform: none;
 }
 
 .banner__three-title h1 {
@@ -4430,6 +4431,8 @@ Banner Three
   position: absolute;
   bottom: -40px;
   right: 180px;
+  /* bottom: -400px;
+  right: -700px; */
 }
 
 .banner__three-title-video .video__play span {
@@ -4849,6 +4852,35 @@ Services
   color: var(--bs-secondary);
 }
 
+.services__area-item-icon i {
+  font-size: 40px;
+  color: var(--primary-color);
+  margin-top: 18px;
+}
+
+.services__area-item-content {
+  overflow: hidden;
+}
+
+.services__area-item-content h1 {
+  margin-bottom: 5px;
+}
+
+.services__area-item-content h1 a {
+  transition: all 0.4s ease-in-out;
+}
+
+.services__area-item-content h1 a:hover {
+  color: var(--primary-color);
+}
+
+.services__area-item-content h5 {
+  margin: 0;
+  max-width: 305px;
+  color: var(--bs-secondary);
+}
+
+
 /*==========================================================================
 Services Two
 ==========================================================================*/
@@ -5102,9 +5134,10 @@ Blog Two
 
 .blog__two-item-content h6 {
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 24px;
   margin-bottom: 5px;
+  color: var(--primary-color);
 }
 
 .blog__two-item-content h4 {
@@ -6454,11 +6487,6 @@ Footer
 
 .footer__area-widget-contact-item-content span a:hover {
   color: var(--primary-color);
-}
-
-.footer__area-widget-contact-item-content span {
-  /* max-width: 170px; */
-  display: inline-block;
 }
 
 .footer__area-widget-contact-item-content span p {

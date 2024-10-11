@@ -32,6 +32,9 @@
       "@pub/*": [
         "./public/*"
       ],
+      "@app/*": [
+        "./src/app/*"
+      ],
     },
     "incremental": true
   },
