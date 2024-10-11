@@ -1,5 +1,4 @@
-
-"use client";
+"use client"
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,7 +20,7 @@ import VincomDongKhoi from "@pub/img/home/vincomDongKhoi.webp";
 import BenThanhMarket from "@pub/img/home/benThanhMarket.webp";
 
 export default function PlacesNearBy() {
-  const t = useTranslations('homePage.fifthBlock')
+  const t = useTranslations('homePage.fifthBlock');
   const placesNearByList = [
     {
       "id": "1",
@@ -103,13 +102,13 @@ export default function PlacesNearBy() {
     "distances": "1.3km",
   };
   const tanSonNhat = {
-    "id": "13",
+    "id": "14",
     "img": TanSonNhatAirport.src,
     "title": t('tanSonNhatAirport'),
     "distances": "6.0km",
   };
   const benThanh = {
-    "id": "13",
+    "id": "15",
     "img": BenThanhMarket.src,
     "title": t('benThanhMarket'),
     "distances": "2.2km",
@@ -125,86 +124,77 @@ export default function PlacesNearBy() {
         <div className="blog__area-title">
           <h2>{t('placesNearby')}</h2>
         </div>
-        <div className="row">
+        <div className="row" key={tanSonNhat.id}>
           <div className="blog__two-item" style={{ borderRadius: '15px', overflow: 'hidden' }}>
             <div className="blog__two-item-image">
               <img src={tanSonNhat.img} alt="image" />
             </div>
             <div className="blog__two-item-content">
               <h6>{tanSonNhat.distances}</h6>
-              <h4>
-                {tanSonNhat.title}
-              </h4>
+              <h4>{tanSonNhat.title}</h4>
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" key={0}>
           {placesNearByList?.map((data, id) => (
             data.id === "3" ?
-              <>
-                <div className="col-xl-4 col-lg-6 col-md-6 mb-30" key={id}>
-                  <div className="row">
-                    <div className="blog__two-item" style={{ borderRadius: '15px', overflow: 'hidden' }}>
-                      <div className="blog__two-item-image">
-                        <img src={data.img} alt="image" />
-                      </div>
-                      <div className="blog__two-item-content">
-                        <h6>{data.distances}</h6>
-                        <h4 style={{ marginBottom: "-5px" }}>
-                          {data.title}
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="blog__two-item" style={{ borderRadius: '15px', overflow: 'hidden' }}>
-                      <div className="blog__two-item-image">
-                        <img src={cityPost.img} alt="image" />
-                      </div>
-                      <div className="blog__two-item-content">
-                        <h6>{cityPost.distances}</h6>
-                        <h4 style={{ marginBottom: "-5px" }}>
-                          {cityPost.title}
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </>
-              :
-              <>
-                <div className="col-xl-4 col-lg-6 col-md-6 mb-30" key={id}>
+              <div className="col-xl-4 col-lg-6 col-md-6 mb-30" key={id}>
+                <div className="row">
                   <div className="blog__two-item" style={{ borderRadius: '15px', overflow: 'hidden' }}>
                     <div className="blog__two-item-image">
                       <img src={data.img} alt="image" />
                     </div>
                     <div className="blog__two-item-content">
                       <h6>{data.distances}</h6>
-                      <h4>
+                      <h4 style={{ marginBottom: "-5px" }}>
                         {data.title}
                       </h4>
                     </div>
                   </div>
                 </div>
-              </>
+                <div className="row">
+                  <div className="blog__two-item" style={{ borderRadius: '15px', overflow: 'hidden' }}>
+                    <div className="blog__two-item-image">
+                      <img src={cityPost.img} alt="image" />
+                    </div>
+                    <div className="blog__two-item-content">
+                      <h6>{cityPost.distances}</h6>
+                      <h4 style={{ marginBottom: "-5px" }}>
+                        {cityPost.title}
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              :
+              <div className="col-xl-4 col-lg-6 col-md-6 mb-30" key={id}>
+                <div className="blog__two-item" style={{ borderRadius: '15px', overflow: 'hidden' }}>
+                  <div className="blog__two-item-image">
+                    <img src={data.img} alt="image" />
+                  </div>
+                  <div className="blog__two-item-content">
+                    <h6>{data.distances}</h6>
+                    <h4>
+                      {data.title}
+                    </h4>
+                  </div>
+                </div>
+              </div>
           ))}
+
         </div>
-        <div className="row">
+        <div className="row" key={benThanh.id}>
           <div className="blog__two-item" style={{ borderRadius: '15px', overflow: 'hidden' }}>
             <div className="blog__two-item-image">
               <img src={benThanh.img} alt="image" />
             </div>
             <div className="blog__two-item-content">
               <h6>{benThanh.distances}</h6>
-              <h4>
-                {benThanh.title}
-              </h4>
+              <h4>{benThanh.title}</h4>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   );
 }

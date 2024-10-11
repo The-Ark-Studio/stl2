@@ -1,0 +1,42 @@
+:root {
+    --background-service-color: #f9f9f9;
+    --black-color: #000;
+    --white-color: #FFF;
+    --service-description-color: #666;
+    --secondary-color: #0095B7;
+    --secondary-color-2: #6ec1e4;
+    --text-contact-color: #063c43;
+    --icon-grey-color: #7a7a7a;
+}
+
+a {
+    text-decoration: none;
+}
+
+.b-title-text-32 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.b-title-text-28 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.b-title-text-22-bold {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.b-text-description-16 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--service-description-color);
+}
+
+.bg-service {
+    background: var(--background-service-color);
+}

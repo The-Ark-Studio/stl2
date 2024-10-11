@@ -14,17 +14,17 @@ const Social = () => {
   return (
     <>
       <ul>
-        <li>
+        <li key={1}>
           <Link href={t('facebook')} target="_blank">
             <Image src={locale === 'ko' ? FacebookKo.src : FacebookEN.src} alt="Description" width={50} height={50} />
           </Link>
         </li>
-        <li>
+        <li key={2}>
           <Link href={t('instagram')} target="_blank">
             <Image src={locale === 'ko' ? InstagramKo.src : InstagramEN.src} alt="Description" width={50} height={50} />
           </Link>
         </li>
-        <li>
+        <li key={3}>
           <Link href={t('tiktok')} target="_blank">
             <Image src={locale === 'ko' ? TikTokKo.src : TikTokEN.src} alt="Description" width={50} height={50} />
           </Link>

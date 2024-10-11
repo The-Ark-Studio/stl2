@@ -1,0 +1,130 @@
+.section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 30px;
+    margin-bottom: 40px;
+    min-height: 400px;
+}
+
+.section.left {
+    flex-direction: row;
+}
+
+.section.right {
+    /* flex-direction: row-reverse; */
+}
+
+.section-image {
+    flex: 1;
+}
+
+
+.section-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel {
+    width: 540px;
+    height: 360px;
+}
+
+.section-content {
+    flex: 1;
+}
+
+.section-content h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.section-content p {
+    margin: 10px 0;
+}
+
+.carousel-item {
+    transition: transform 0.8s ease-in-out !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    text-decoration: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    background-image: unset;
+    transition: all 0.3s linear;
+}
+
+.carousel-control-next-icon::after {
+    content: '\203A';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carousel-control-prev-icon::after {
+    content: '\2039';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+    background: var(--primary-color);
+
+}
+
+@media (max-width:992px) {
+    .section-image {
+        flex: auto;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 80%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section.right {
+        flex-direction: column-reverse;
+    }
+
+    .section-image,
+    .section-content {
+        flex: none;
+        width: 100%;
+    }
+
+    /* .section-image {
+        flex: auto;
+    } */
+
+    .carousel {
+        width: 100%;
+    }
+}

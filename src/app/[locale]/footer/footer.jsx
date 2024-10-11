@@ -74,13 +74,13 @@ export default function Footer() {
                     </span>
                   </div>
                 </div>
-                <div className="footer__area-widget-contact-item" key={3} style={{ marginTop: "-20px" }}>
+                <div className="footer__area-widget-contact-item" key={4} style={{ marginTop: "-20px" }}>
                   <div className="footer__area-widget-contact-item-icon">
                     <Image src={CheckMap.src} alt="Description" width={50} height={50} />
                   </div>
                   <div className="footer__area-widget-contact-item-content">
                     <span>
-                      <Link href={t('contact.check_map.link')}>{t('contact.check_map.title')}</Link>
+                      <Link href={t('contact.check_map.link')} style={{ textDecoration: 'underline' }}>{t('contact.check_map.title')}</Link>
                     </span>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Footer() {
               {/* Page links */}
               <h5>{t('travel_booking.title')}</h5>
               <div className="footer__area-widget-contact">
-                <div className="footer__area-widget-contact-item" key={4}>
+                <div className="footer__area-widget-contact-item" key={5}>
                   <div className="footer__area-widget-contact-item-icon">
                     <Image src={EmailTravelBooking.src} alt="Description" width={50} height={50} />
                   </div>
@@ -102,7 +102,7 @@ export default function Footer() {
                     </span>
                   </div>
                 </div>
-                <div className="footer__area-widget-contact-item" key={4}>
+                <div className="footer__area-widget-contact-item" key={6}>
                   <div className="footer__area-widget-contact-item-icon">
                     <Image src={PhoneRing.src} alt="Description" width={50} height={50} />
                   </div>
@@ -112,7 +112,7 @@ export default function Footer() {
                     </span>
                   </div>
                 </div>
-                <div className="footer__area-widget-contact-item" key={4}>
+                <div className="footer__area-widget-contact-item" key={7}>
                   <div className="footer__area-widget-contact-item-icon">
                     <Image src={KakaoTalkIcon.src} alt="Description" width={50} height={50} />
                   </div>
@@ -133,9 +133,9 @@ export default function Footer() {
                   {/* Company logo */}
                   <Link href="/">
                     <Image
-                      layout="responsive"
+                      // layout="responsive"
                       src="/logo-1.png"
-                      alt=""
+                      alt="Logo"
                       width={200}
                       height={50}
                     />

@@ -1,0 +1,152 @@
+.card-container {
+    border: none;
+    box-shadow: 0px 60px 180px 0px rgba(0, 0, 0, .05);
+    padding: 28px;
+    border-radius: 12px;
+    background-color: var(--white-color);
+}
+
+.contact-title-top {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.card-second {
+    padding: 28px 36px;
+    max-height: 420px;
+    height: 420px;
+    background-color: var(--primary-color);
+}
+
+.card-body {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact__card-title {
+    width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.contact__card-sub-title {
+    font-size: 16px;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.card-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 19px;
+}
+
+.card-item .item-text {
+    display: inline-block;
+    position: relative;
+}
+
+.card-item .item-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    width: 0;
+    height: 1px;
+    background-color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-item .item-text:hover:after {
+    width: 100%;
+}
+
+.card-item i {
+    font-size: 24px;
+    color: var(--white-color);
+    margin-right: 20px;
+}
+
+.card-item.card-item-social {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-item {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.social-item:hover {
+    background: #FFFFFF33;
+    border-radius: 25px;
+    animation: pulse 1s infinite;
+}
+
+.card-second-title {
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--text-contact-color);
+    line-height: 1;
+    margin-bottom: 26px;
+}
+
+.card-description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .card-second-title {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-title-top {
+        font-size: 28px;
+    }
+
+    .card-container {
+        padding-left: 0;
+        padding-right: 0;
+        min-height: 700px;
+    }
+
+    .card-second {
+        min-height: 450px;
+        padding: 26px
+    }
+
+    .content-text {
+        padding: 0 30px;
+    }
+}

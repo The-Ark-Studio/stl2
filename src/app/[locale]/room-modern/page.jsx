@@ -1,15 +1,17 @@
-import Image from "next/image";
-import Footer from "../footer/footer";
-import ScrollToTopButton from "../scroll-to-top/scrollToTop";
-import roomStyleAllBlogs from "@/components/data/room-style-all-blogs";
-import BreadCrumb from "../breadcrumb/breadcrumb";
-import HeaderOne from "../header/HeaderOne";
-import SEO from "@/components/seo";
+// import Image from 'next/image';
+// import Footer from '../footer/footer';
+// import ScrollToTopButton from '../scroll-to-top/scrollToTop';
+// import roomStyleAllBlogs from '@/components/data/room-style-all-blogs';
+// import BreadCrumb from '../breadcrumb/breadcrumb';
+// import HeaderOne from '../header/HeaderOne';
+// import SEO from '@/components/seo';
 
 const Roommodern = () => {
   return (
     <>
-      <SEO pageTitle="Room Modern" />
+      <h1>Room Modern</h1>
+
+      {/* <SEO pageTitle="Room Modern" />
         <HeaderOne />
         <BreadCrumb title="Room Modern" innerTitle="Room Modern" bgImage='/img/banner/page-banner-8.jpg' />
         <div className="modern__room section-padding">
@@ -60,7 +62,7 @@ const Roommodern = () => {
           </div>
         </div>
         <Footer />
-        <ScrollToTopButton />
+        <ScrollToTopButton /> */}
     </>
   );
 };

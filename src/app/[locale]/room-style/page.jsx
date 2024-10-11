@@ -1,26 +1,27 @@
-"use client";
+'use client';
 
-import roomStyleAllBlogs from "@/components/data/room-style-all-blogs";
-import Image from "next/image";
-import Footer from "../footer/footer";
-import ScrollToTopButton from "../scroll-to-top/scrollToTop";
-import BreadCrumb from "../breadcrumb/breadcrumb";
-import Link from "next/link";
-import Sidebar from "../room-details/sidebar";
-import HeaderOne from "../header/HeaderOne";
-import SEO from "@/components/seo";
+import roomStyleAllBlogs from '@/components/data/room-style-all-blogs';
+import Image from 'next/image';
+import Footer from '../footer/footer';
+import ScrollToTopButton from '../scroll-to-top/scrollToTop';
+import BreadCrumb from '../breadcrumb/breadcrumb';
+import Link from 'next/link';
+import Sidebar from '../room-details/sidebar';
+import HeaderOne from '../header/HeaderOne';
+import SEO from '@/components/seo';
 
 const Roomstyle = () => {
   return (
     <>
-      <SEO pageTitle="Room Style" />
+      <h1>Room Style</h1>
+      {/* <SEO pageTitle="Room Style" />
         <HeaderOne />
         <BreadCrumb title="Room Style" innerTitle="Room Style" bgImage="/img/banner/page-banner-9.jpg"/>
         <div className="room__area section-padding">
           <div className="container">
             <div className="row">
               <Sidebar />
-              <div className="col-xl-9 col-lg-8 order-first order-lg-1 lg-mb-30">
+              <div className="order-first col-xl-9 col-lg-8 order-lg-1 lg-mb-30">
                 <div className="row justify-content-center">
                   {roomStyleAllBlogs.map((item, index) => (
                     <div key={index} className="col-xl-4 col-md-6 mb-30">
@@ -72,7 +73,7 @@ const Roomstyle = () => {
           </div>
         </div>
         <Footer />
-        <ScrollToTopButton />
+        <ScrollToTopButton /> */}
     </>
   );
 };

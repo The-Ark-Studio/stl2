@@ -92,7 +92,7 @@
       "showPicture": "Show picture"
     },
     "seventhBlock": {
-      "manicure&Massage6f": "Manicure & Massage (6F)",
+      "manicureAndMassage6f": "Manicure & Massage (6F)",
       "description": "STL Beauty/Health Room offers high-quality body massage services, providing a special experience to relieve body and mind fatigue. In addition, it comes with a carefully managed nail service, so you can take care of the beauty from your body to your fingertips. Here, customers can enjoy both comfort and beauty, and have a time of real healing.",
       "showPicture": "Show picture"
     },
@@ -106,26 +106,37 @@
     "firstBlock": {
       "titleOne": "OUR",
       "titleTwo": "Lounge",
-      "titleThree": "Story…"
+      "titleThree": "Story…",
+      "description": "The Saigon Travel Lounge is an external airport lounge service designed for travelers visiting Ho Chi Minh City. It provides a comfortable space to relax before hotel check-in or after check-out, offering a quiet and cozy atmosphere. With free Wi-Fi, beverages and snacks, buffet access, shower facilities, sleeping rooms, and a cafeteria, it alleviates the fatigue of customers. The Saigon Travel Lounge is dedicated to ensuring that customers have a comfortable and enjoyable travel experience"
     },
     "secondBlock": {
       "title": "WHY CHOOSE US",
-      "header": "A Travel Budget",
-      "description": "The Saigon Travel Lounge reduces the cost burden on travelers through late check-out and room extension, enhancing customer satisfaction. It helps customers adjust their travel schedules more flexibly while providing a comfortable space for relaxation. This contributes to an overall improved travel experience."
+      "budget": {
+        "header": "A Travel Budget",
+        "description": "The Saigon Travel Lounge reduces the cost burden on travelers through late check-out and room extension, enhancing customer satisfaction. It helps customers adjust their travel schedules more flexibly while providing a comfortable space for relaxation. This contributes to an overall improved travel experience."
+      },
+      "travelTrend": {
+        "header": "A Travel Trend",
+        "description": "The \"new concept\" travel lounge service creates new travel trends and leads the market, providing customers with unique experiences that enhance the quality of their travel."
+      },
+      "transportation": {
+        "header": "Transportation Service",
+        "description": "The pickup and sending service offers customers a convenient one-stop solution, reducing the hassle of travel and helping them enjoy their journey more easily."
+      },
+      "wereOne": {
+        "header": "We're The One",
+        "description": "This service, which is being launched for the first time, combines the nostalgia of the homeland with the excitement of the local environment by offering a variety of foods and services, reflecting the pride of a Korean company leading the travel market."
+      },
+      "freedomLanguage": {
+        "header": "Freedom of Language",
+        "description": "We have organized a concierge team that speaks both Korean and English, allowing customers to conveniently use services in the lounge without any language barriers."
+      },
+      "emerrgencySupport": {
+        "header": "Emergency Support Services",
+        "description": "We provide a \"helper\" service to assist travelers in case of unforeseen accidents, offering administrative support for issues such as passport loss, traffic accidents, medical emergencies, and involvement in crimes."
+      }
     },
     "thirdBlock": {
-      "header": "A Travel Trend",
-      "description": "The \"new concept\" travel lounge service creates new travel trends and leads the market, providing customers with unique experiences that enhance the quality of their travel."
-    },
-    "fourthBlock": {
-      "header": "We’re The One",
-      "description": "This service, which is being launched for the first time, combines the nostalgia of the homeland with the excitement of the local environment by offering a variety of foods and services, reflecting the pride of a Korean company leading the travel market."
-    },
-    "fifthBlock": {
-      "header": "Freedom of Language",
-      "description": "We have organized a concierge team that speaks both Korean and English, allowing customers to conveniently use services in the lounge without any language barriers."
-    },
-    "sixthBlock": {
       "header": "USE AND EXIT REGULATIONS",
       "title1": "1. Regulations on sexual safety",
       "description1": "Facilities exclusively for women are strictly prohibited for men, and violation of this rule will result in immediate expulsion.",
@@ -136,7 +147,7 @@
       "title4": "4. Regulations on decadent acts",
       "description4": "Excessive inappropriate behavior is prohibited within the lounge. Violating this rule will result in immediate expulsion."
     },
-    "seventhBlock": {
+    "fourthBlock": {
       "header": "PROVISIONS CONCERNING COMPENSATION",
       "title1": "1. Regulations for compensation for damage to facilities",
       "description1": "Customers will be fully responsible for any costs incurred due to damage to the facilities.",
@@ -149,6 +160,7 @@
     }
   },
   "faqs": {
+    "title": "FAQs",
     "firstBlock": {
       "question1": "How can I get to Saigon Travel Lounge (STL) from the nearest airport?",
       "answer1": "You can request a pick-up service (charged) when making a lounge reservation or take a taxi.",
@@ -193,7 +205,24 @@
       "femaleSleepingRoom": "Female Sleeping Room",
       "manicureAndMassage": "Manicure & Massage",
       "maleSleepingRoom": "Male Sleeping Room"
+    },
+    "noImageData": "No Image Available."
+  },
+  "partnership": {
+    "firstBlock": {
+      "header": "Partnership",
+      "description": "Coming soon...",
+      "descriptionTwo": "Waiting to be updated..."
     }
+  },
+  "common": {
+    "search": "Search",
+    "recentPost": "Recent Posts",
+    "recentComments": "Recent Comments",
+    "noComment": "No comments to show.",
+    "category": "Category",
+    "noCategory": "No categories",
+    "archives": "Archives"
   },
   "footer": {
     "contact": {
@@ -201,6 +230,16 @@
       "email": "support@stl.sg",
       "phone": "02836223390",
       "address": "95 Vo Thi Sau Street, Ward 6, District 3, Ho Chi Minh, Viet Nam",
+      "callNow": "Call Now",
+      "quickEmail": "Quick Email",
+      "officeAddress": "Office Address",
+      "location": "LOCATION",
+      "systemName": "SAIGON TRAVEL LOUNGE",
+      "howToContact": "How to contact with us",
+      "suggestionAndQuestion": {
+        "title": "SUGGESTIONS AND QUESTIONS",
+        "description": "If you send us suggestions or questions regarding Saigon Travel Lounge, we will actively consider them to provide better services."
+      },
       "check_map": {
         "title": "Check Map",
         "link": "https://www.google.com/maps/place/95+%C4%90.+V%C3%B5+Th%E1%BB%8B+S%C3%A1u,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000/@10.7866873,106.6884141,17z/data=!4m6!3m5!1s0x31752f3254c86d61:0x31fa21392192d696!8m2!3d10.786682!4d106.690989!16s%2Fg%2F11c20vt2hx?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"

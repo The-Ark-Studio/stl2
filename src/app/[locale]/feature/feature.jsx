@@ -33,7 +33,7 @@ export default function Feature() {
                   y="-60%"
                   width="200"
                   height="200"
-                  clip-path="url(#blob)"
+                  clipPath="url(#blob)"
                   className="curved-image"
                   style={{ transform: "translate(-5%, 0%)" }} // Để căn giữa
                 />
