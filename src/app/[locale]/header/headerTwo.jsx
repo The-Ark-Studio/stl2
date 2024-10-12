@@ -6,12 +6,12 @@ import DropDown from './DropDown';
 
 import SideBar from './sidebar/sidebar';
 // import Search from './sidebar/search';
-import BookNow from '@/components/book-now/book-now';
+import BookNow from '@components/book-now/book-now';
 import styles from '../assets/css/language.module.css';
 // import LanguageIcon from "@/public/img/Language.png";
 import LanguageIcon from '../../../../public/img/Language.png';
 import { useRouter, usePathname } from 'next/navigation';
-import { Link } from '@/i18n/routing';
+import { Link } from '../../../i18n/routing';
 import '../assets/css/base.css';
 
 const HeaderTwo = ({ variant }) => {

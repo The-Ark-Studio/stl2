@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '@/app/[locale]/assets/css/booknow.module.css';
+import styles from './booknow.module.css';
 import { useTranslations, useLocale } from 'next-intl';
 
 const BookNow = () => {

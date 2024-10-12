@@ -3,7 +3,7 @@
 // import Blogdetailscontainer from './blog-details-container';
 // import HeaderOne from '@/src/app/[locale]/header/HeaderOne';
 // import ScrollToTopButton from '@/src/app/[locale]/scroll-to-top/scrollToTop';
-// import SEO from '@/components/seo';
+// import SEO from '@components/seo';
 
 const Blogdetails = () => {
   return (

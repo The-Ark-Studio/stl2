@@ -8,7 +8,7 @@ import React from 'react';
 // import HeaderOne from '../header/HeaderOne';
 import ScrollToTopButton from '../scroll-to-top/scrollToTop';
 import Footer from '../footer/footer';
-import SEO from '@/components/seo';
+import SEO from '@components/seo';
 
 const Servicedetails = () => {
   return (

@@ -1,4 +1,4 @@
-import roomStyleAllBlogs from "@/components/data/room-style-all-blogs";
+import roomStyleAllBlogs from "@components/data/room-style-all-blogs";
 import Image from "next/image";
 import Link from "next/link";
 

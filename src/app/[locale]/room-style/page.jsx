@@ -1,6 +1,6 @@
 'use client';
 
-import roomStyleAllBlogs from '@/components/data/room-style-all-blogs';
+import roomStyleAllBlogs from '@components/data/room-style-all-blogs';
 import Image from 'next/image';
 import Footer from '../footer/footer';
 import ScrollToTopButton from '../scroll-to-top/scrollToTop';
@@ -8,7 +8,7 @@ import BreadCrumb from '../breadcrumb/breadcrumb';
 import Link from 'next/link';
 import Sidebar from '../room-details/sidebar';
 import HeaderOne from '../header/HeaderOne';
-import SEO from '@/components/seo';
+import SEO from '@components/seo';
 
 const Roomstyle = () => {
   return (

@@ -1,5 +1,5 @@
 "use client";
-import blogsData from "@/components/data/blogs";
+import blogsData from "@components/data/blogs";
 import { useState } from "react";
 import Currentblogitems from "./current-blog-items";
 import Paginations from "./paginations";

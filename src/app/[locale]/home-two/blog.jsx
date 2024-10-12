@@ -1,4 +1,4 @@
-import blogs from "@/components/data/blogs";
+import blogs from "@components/data/blogs";
 
 const Blog = () => {
   const blogItem = blogs.slice(0, 3);

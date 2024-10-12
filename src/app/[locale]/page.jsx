@@ -2,7 +2,7 @@ import Feature from "./feature/feature";
 import Footer from "./footer/footer";
 import ScrollToTopButton from "./scroll-to-top/scrollToTop";
 import CounterServices from "./counter-services/counter-services";
-import SEO from "@/components/seo";
+import SEO from "@components/seo";
 
 import HeaderTwo from './header/headerTwo';
 import Banner from './home-two/banner';

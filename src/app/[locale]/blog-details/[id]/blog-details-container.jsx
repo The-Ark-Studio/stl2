@@ -1,6 +1,6 @@
 "use client"
 
-import blogs from "@/components/data/blogs";
+import blogs from "@components/data/blogs";
 import { useParams, useRouter } from "next/navigation";
 import Blogcomment from "./blog-comment";
 import BlogSideBar from "./blog-sidebar";

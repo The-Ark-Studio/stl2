@@ -1,4 +1,4 @@
-import SEO from '@/components/seo';
+import SEO from '@components/seo';
 import BreadCrumb from '../breadcrumb/breadcrumb';
 import Footer from '../footer/footer';
 import HeaderOne from '../header/HeaderOne';

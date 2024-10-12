@@ -1,4 +1,4 @@
-import SEO from '@/components/seo';
+import SEO from '@components/seo';
 import Footer from '../footer/footer';
 import ScrollToTopButton from '../scroll-to-top/scrollToTop';
 import ContactScreen from './partials/ContactScreen';

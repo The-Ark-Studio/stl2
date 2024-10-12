@@ -22,9 +22,10 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./",
     "paths": {
       "@/*": [
-        "./src/*"
+        "*"
       ],
       "@pages/*": [
         "./pages/*"
@@ -32,9 +33,15 @@
       "@pub/*": [
         "./public/*"
       ],
+      "@components/*": [
+        "./src/components/*"
+      ],
       "@app/*": [
         "./src/app/*"
       ],
+      "@src": [
+        "./src/*"
+      ]
     },
     "incremental": true
   },

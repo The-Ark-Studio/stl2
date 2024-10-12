@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Social from "../socials/page";
-import footerOne from "@/components/data/footerOne";
+import footerOne from "@components/data/footerOne";
 
 const FooterTwo = () => {
   return (

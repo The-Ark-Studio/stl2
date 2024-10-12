@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import blogsDataNew from "@/components/data/blogs";
+import blogsDataNew from "@components/data/blogs";
 import Blogstandardposts from "./blog-standard-posts";
 import Pagination from "./pagination";
 import BlogSideBar from "../blog-details/[id]/blog-sidebar";

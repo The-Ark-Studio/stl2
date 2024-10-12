@@ -1,10 +1,10 @@
 // import Image from 'next/image';
 // import Footer from '../footer/footer';
 // import ScrollToTopButton from '../scroll-to-top/scrollToTop';
-// import roomStyleAllBlogs from '@/components/data/room-style-all-blogs';
+// import roomStyleAllBlogs from '@components/data/room-style-all-blogs';
 // import BreadCrumb from '../breadcrumb/breadcrumb';
 // import HeaderOne from '../header/HeaderOne';
-// import SEO from '@/components/seo';
+// import SEO from '@components/seo';
 
 const Roommodern = () => {
   return (

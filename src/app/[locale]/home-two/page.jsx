@@ -1,5 +1,5 @@
 "use client"
-import SEO from "@/components/seo";
+import SEO from "@components/seo";
 import FooterTwo from "../footer/footerTwo";
 import HeaderTwo from "../header/headerTwo";
 import ScrollToTopButton from "../scroll-to-top/scrollToTop";
@@ -16,17 +16,17 @@ const Home2 = () => {
   return (
     <>
       <SEO pageTitle="Home Two" />
-        <HeaderTwo />
-        <Banner />
-        <Companyarea />
-        <Callarea />
-        <Deluxe />
-        <Booking />
-        <Place />
-        <Blog />
-        <Instagram />
-        <FooterTwo />
-        <ScrollToTopButton />
+      <HeaderTwo />
+      <Banner />
+      <Companyarea />
+      <Callarea />
+      <Deluxe />
+      <Booking />
+      <Place />
+      <Blog />
+      <Instagram />
+      <FooterTwo />
+      <ScrollToTopButton />
     </>
   );
 };

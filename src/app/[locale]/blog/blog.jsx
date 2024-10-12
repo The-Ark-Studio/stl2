@@ -1,5 +1,5 @@
 "use client";
-import blogsData from "@/components/data/blogs";
+import blogsData from "@components/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -26,9 +26,8 @@ export default function Blog() {
           {blogs?.map((blog, index) => (
             <div key={index} className="col-xl-4 col-lg-6 mt-30">
               <div
-                className={`blog__area-item ${
-                  active === index ? "blog__area-item-hover" : ""
-                }`}
+                className={`blog__area-item ${active === index ? "blog__area-item-hover" : ""
+                  }`}
                 key={index}
                 onMouseEnter={() => handelActive(index)}
               >

@@ -1,6 +1,6 @@
 "use client";
 
-import teams from "@/components/data/team";
+import teams from "@components/data/team";
 import Image from "next/image";
 import Social from "../socials/page";
 

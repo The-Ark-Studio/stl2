@@ -1,5 +1,5 @@
 'use client';
-import roomFilter from '@/components/data/room-filter';
+import roomFilter from '@components/data/room-filter';
 import React, { useState } from 'react';
 import RoomItem from './room-item';
 
