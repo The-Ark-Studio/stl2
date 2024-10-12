@@ -18,9 +18,9 @@
       "bookNowButton": "지금 예약하기"
     },
     "secondBlock": {
-      "bookedSlots": "예약된 슬롯",
-      "capacity": "용량",
-      "complete": "경험"
+      "bookedSlots": "동시 수용인원",
+      "capacity": "현재 이용인원",
+      "complete": "잔여 수용인원"
     },
     "thirdBlock": {
       "header": "사이공 트래블 라운지는 상상 그 이상을 제공합니다.",
@@ -210,7 +210,7 @@
   },
   "partnership": {
     "firstBlock": {
-      "header": "공동",
+      "header": "파트너십",
       "description": "곧 출시됩니다...",
       "descriptionTwo": "업데이트를 기다리는 중..."
     }

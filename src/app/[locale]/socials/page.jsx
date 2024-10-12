@@ -1,5 +1,5 @@
 import Link from "next/link";
-import FacebookKo from '@pub/img/icon/faceBookKO.svg';
+import FacebookKo from '@pub/img/icon/facebookKO.svg';
 import FacebookEN from '@pub/img/icon/facebookEN.svg';
 import InstagramKo from '@pub/img/icon/instagramKO.svg';
 import InstagramEN from '@pub/img/icon/instagramEN.svg';
